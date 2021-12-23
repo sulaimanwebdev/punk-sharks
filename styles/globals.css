@@ -32,14 +32,16 @@ body{
     font-weight: 800;
 }
 
-.about{
-    max-width: 1300px;
-}
+
 
 .widthMax{
-    max-width: 1300px;
+    max-width: 1400px;
 }
 
 .familyImage{
     min-width: 300px;
+}
+
+.aboutText{
+    max-width: 900px;
 }
