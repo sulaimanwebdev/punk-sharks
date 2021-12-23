@@ -94,7 +94,12 @@ export default function Home() {
 
 {/* FAQ */}
 <div className="faq mt-20 mx-auto">
-<FAQ/>
+                <FAQ title="What does NFT Collection Comprise of?" />
+                <FAQ title="How to get our NFT?" />
+                <FAQ title="How much does our NFT cost?" />
+                <FAQ title="Will you list your NFT on OpenSea?" />
+                <FAQ title="What is a Rarity NFT?" />
+                <FAQ title="What is a Rarity NFT?" />
 </div>
 
 

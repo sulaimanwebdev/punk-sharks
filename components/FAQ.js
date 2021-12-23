@@ -1,54 +1,41 @@
-import React, {useState} from 'react'
+import React from "react";
+import { BsDashLg } from "react-icons/bs";
+import { AiOutlinePlus } from "react-icons/ai";
 
-const FAQ = () => {
+function FAQ({ title }) {
+  const [show, setShow] = React.useState(false);
+  const accordionBody = React.useRef();
 
-    const [showAnswer, setshowAnswer] = useState('')
+  const handler = () => {
+    setShow(!show);
+  };
 
-    let data = [
-        {   
-            id: 1,
-            question: 'How can I buy A Shark?',
-            answer: 'You can easily buy with Opensea You can easily buy with Opensea You can easily buy with Opensea'
-        },
-
-        {
-            id: 2,
-            question: 'Just a random question?',
-            answer: 'A random answer of a radom question ofcource can be change A random answer of a radom question ofcource can be change'
-        },
-
-        {
-            id: 3,
-            question: 'Just a random question?',
-            answer: 'A random answer of a radom question ofcource can be change A random answer of a radom question ofcource can be change'
-        },
-
-        {
-            id: 4,
-            question: 'Just a random question?',
-            answer: 'A random answer of a radom question ofcource can be change'
-        },
-
-    ]
-
-
-    let questionClicked = (e) =>{
-    }
-    return (
-        <>
-            {
-                data.map((singleData) =>{
-                    return <div className="singleAccordianCont text-white" key={singleData.id}>
-                        <div className="question bg-blue-500 cursor-pointer relative flex items-center justify-between py-5 px-7 h-20 rounded-md mb-2" onClick={questionClicked}>{singleData.question} <span><i class="fas fa-chevron-down text-xl"></i></span>
-                        
-                        <div className="answer absolute left-5 -bottom-20 maxWidthAnswer  mx-auto rounded rounded-t-none bg-gray-500 mb-5">{singleData.answer}</div>
-                        </div>
-                        
-                    </div>
-                })
-            }
-        </>
-    )
+  return (
+    <div className="accordion">
+      <div
+        className={`accordion-btn ${show ? "active" : ""}`}
+        onClick={handler}
+      >
+        <p className=" teko fs-30px weight-4">{title}</p>{" "}
+        <div className="acordion-header-icon">
+          {show ? <BsDashLg /> : <AiOutlinePlus />}
+        </div>
+      </div>
+      <div
+        className="accordion-body"
+        style={{
+          height: show ? accordionBody?.current?.scrollHeight + "px" : 0,
+        }}
+        ref={accordionBody}
+      >
+        <div className="accordion-content">
+          <p className="fs-18px weight-5 lh-26px">
+           { }
+          </p>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default FAQ
+export default FAQ;
