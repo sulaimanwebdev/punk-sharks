@@ -45,3 +45,18 @@ body{
 .aboutText{
     max-width: 900px;
 }
+
+
+.faq{
+  max-width: 1000px;
+  
+}
+.maxWidthAnswer{
+  max-width: 950px;
+  transition: 0.4s;
+  
+}
+
+
+
+
