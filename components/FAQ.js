@@ -18,7 +18,7 @@ function FAQ({ title, answer }) {
       >
         <p className=" teko fs-30px weight-4">{title}</p>{" "}
         <div className="acordion-header-icon">
-          {show ? <BsDashLg /> : <AiOutlinePlus />}
+          {show ? <BsDashLg /> : <AiOutlinePlus style={{fontSize: "20px"}} />}
         </div>
       </div>
       <div
