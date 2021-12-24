@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import {useEffect, useState} from "react";
 import FAQ from '../components/FAQ';
+import LargestSales from '../components/LargestSales';
 export default function Home() {
   // const [getdata, setgetdata] = useState([])
 
@@ -26,8 +27,8 @@ export default function Home() {
        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
      </Head>
 
-     <div className="header z-10 px-7 sticky top-0 bg-white py-2">
-             <div className="mx-auto w-full widthMax flex items-center justify-between">
+     <div className="header z-10  sticky top-0 bg-white py-2">
+             <div className="mx-auto w-full px-7 widthMax flex items-center justify-between">
              <div className="logo"><a href="#" className="flex items-center gap-2 font-bold "><img src="/images/favicon.png" className="w-14" alt="Logo"/> <span className="opacity-80">Punk Sharks</span></a></div>
 
 <nav className="flex items-center gap-20 font-bold">
@@ -119,7 +120,7 @@ export default function Home() {
 
 
 <div className="secondMaxWidth mx-auto px-7 w-full mt-32">
-<div className="font-bold w-fit text-3xl mx-auto mb-12">Overall Stats</div>
+<div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70">Overall Stats</div>
 
 
 <div className="grid grid-cols-3 gap-5 gap-y-10 mt-20 w-full">
@@ -189,27 +190,11 @@ export default function Home() {
 
 
 
-<div className="widthMax mx-auto px-7 mt-32">
+<div className="widthMax mx-auto px-7 mt-32 mb-20">
 
 
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70">Largest Sales</div>
-
-<div className="grid grid-cols-5 gap-10">
-
-<div className=""></div>
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
+<LargestSales />
 
 </div>
 
