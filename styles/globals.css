@@ -51,10 +51,8 @@ body{
   max-width: 1000px;
   
 }
-.maxWidthAnswer{
-  max-width: 950px;
-  transition: 0.4s;
-  
+.secondMaxWidth{
+  max-width: 1200px;
 }
 
 

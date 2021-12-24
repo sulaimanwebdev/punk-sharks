@@ -55,7 +55,7 @@ export default function Home() {
 </div>
 <div className="font-bold text-5xl mb-7">The Punk Sharks</div>
 <p className="opacity-90 aboutText mb-10">CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear normal. Some look weird. Some are just damn cool! Maybe some even look familiar! CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear</p>
-<a href="#" className="px-5 py-5 bg-blue-500 transition hover:bg-blue-600 text-white font-bold rounded-lg">View On Opensea</a>
+<a href="https://opensea.io/collection/the-punksharks" target="_blank" className="px-5 py-5 bg-blue-500 transition hover:bg-blue-600 text-white font-bold rounded-lg">View On Opensea</a>
 </div>
 
 
@@ -180,29 +180,52 @@ export default function Home() {
 
 
 
+<div className="secondMaxWidth mx-auto px-7 w-full mt-20">
+<div className="font-bold w-fit text-3xl mx-auto mb-12">Overall Stats</div>
 
 
-<div className="widthMax mx-auto px-7 w-full mt-20">
-<div className="font-bold w-fit text-3xl mx-auto mb-12">Future Direction</div>
-<div className="font-bold text-xl mb-3">PunkSharks & Beyond</div>
-<p className="opacity-90">CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear normal. Some look weird. Some are just damn cool! Maybe some even look familiar! CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear normal. Some look weird. Some are just damn cool! Maybe some even look familiar! CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear normal. Some look weird. Some are just damn cool! Maybe some even look familiar!</p>
-</div>
+<div className="grid grid-cols-3 gap-5 gap-y-10 mt-20 w-full">
+ <div>
+   <div className="opacity-80 mb-1">Current lowest price Shark available</div>
+   <div className="font-bold opacity-80">63.99 ETH ($229,700.20 USD)</div>
+ </div>
+
+
+ <div>
+   <div className="opacity-80 mb-1">Number of sales (last 12 months)</div>
+   <div className="font-bold opacity-80">$12,003</div>
+ </div>
+
+
+ <div>
+   <div className="opacity-80 mb-1">Total Value of All Sales (Lifetime)</div>
+   <div className="font-bold opacity-80">617.59K = ($1.79B)</div>
+ </div>
+
+
+ <div>
+   <div className="opacity-80 mb-1">Value of Sales (24 Hours)</div>
+   <div className="font-bold opacity-80">1.01K = ($3.85M)</div>
+ </div>
 
 
 
 
+ <div>
+   <div className="opacity-80 mb-1">Value of Sales (Week)</div>
+   <div className="font-bold opacity-80">9.85K = ($39.57)</div>
+ </div>
 
-<div className="widthMax mx-auto px-7 w-full mt-20">
-<div className="font-bold w-fit text-3xl mx-auto mb-12">Future Direction</div>
+
+ <div>
+   <div className="opacity-80 mb-1">Value of Sales (4 Week)</div>
+   <div className="font-bold opacity-80">31.5K = ($132.65M)</div>
+ </div>
+
+ 
 
 
-<div className="grid grid-cols-3 gap-4 w-full">
-  <div className="h-20 mb-20 bg-red-300"></div>
-  <div className="h-20 mb-20 bg-red-300"></div>
-  <div className="h-20 mb-20 bg-red-300"></div>
-  <div className="h-20 mb-20 bg-red-300"></div>
-  <div className="h-20 mb-20 bg-red-300"></div>
-  <div className="h-20 mb-20 bg-red-300"></div>
+
 
 </div>
 
