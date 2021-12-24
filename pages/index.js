@@ -100,7 +100,7 @@ export default function Home() {
 
 
 {/* FAQ */}
-<div className="widthMax mt-20 mx-auto">
+<div className="px-7 mt-20 mx-auto">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70">Have Questions?</div>
 
                 <FAQ title="What does NFT Collection Comprise of?" answer="This is an answer ofcourse can be changed This is an answer ofcourse can be changed" />
