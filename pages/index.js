@@ -86,7 +86,7 @@ export default function Home() {
 
 <div className="categories border h-96 flex items-center justify-center flex-col gap-2">
 <div className="font-bold text-4xl opacity-70">Categories</div>
-<p>Will add content later</p>
+<p>Now working on this section</p>
 </div>
 
 
@@ -202,6 +202,19 @@ export default function Home() {
 
 
 
+
+
+<div className="categories border h-96 flex items-center justify-center flex-col gap-2">
+<div className="font-bold text-4xl opacity-70">Concatinated Hash String</div>
+<p>Will add content later</p>
+</div>
+
+
+
+<div className="categories border h-96 flex items-center justify-center flex-col gap-2">
+<div className="font-bold text-4xl opacity-70">Provenance Record</div>
+<p>Will add content later</p>
+</div>
 
 
 
