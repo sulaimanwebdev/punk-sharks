@@ -3,18 +3,21 @@ import {useEffect, useState} from "react";
 import FAQ from '../components/FAQ';
 import LargestSales from '../components/LargestSales';
 export default function Home() {
-  // const [getdata, setgetdata] = useState([])
-
-  // const fetchData = async () => {
-  //          const response = await fetch("/api/sharks");
-  //          setgetdata(await response.json());
-
-  // }
+  const [getdata, setgetdata] = useState([]);
 
 
-  //         useEffect(() => {
-  //           fetchData();
-  //           }, []);
+  const fetchData = async () => {
+           const response = await fetch("http://localhost:3000/api/categories");
+           setgetdata(await response.json());
+
+
+  }
+
+
+          useEffect(() => {
+            fetchData();
+
+            }, []);
 
   return (
    <>
@@ -219,7 +222,21 @@ export default function Home() {
 
 
 
-
+<div className="vampire">
+      <div>
+        {
+          getdata.slice(1, 2).map((getI) =>{
+            return(
+              <div>
+                {
+                  getI.category
+                  }
+              </div>
+            )
+          })
+        }
+      </div>
+</div>
 
 
 
