@@ -2,7 +2,7 @@ import React from "react";
 import { BsDashLg } from "react-icons/bs";
 import { AiOutlinePlus } from "react-icons/ai";
 
-function FAQ({ title }) {
+function FAQ({ title, answer }) {
   const [show, setShow] = React.useState(false);
   const accordionBody = React.useRef();
 
@@ -30,7 +30,7 @@ function FAQ({ title }) {
       >
         <div className="accordion-content">
           <p className="fs-18px weight-5 lh-26px">
-           { }
+           { answer}
           </p>
         </div>
       </div>

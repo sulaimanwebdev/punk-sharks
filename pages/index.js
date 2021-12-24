@@ -78,8 +78,9 @@ export default function Home() {
 
 
 
-<div className="categories border h-96 flex items-center justify-center">
+<div className="categories border h-96 flex items-center justify-center flex-col gap-2">
 <div className="font-bold text-4xl opacity-70">Categories</div>
+<p>Will add content later</p>
 </div>
 
 
@@ -94,12 +95,12 @@ export default function Home() {
 
 {/* FAQ */}
 <div className="faq mt-20 mx-auto">
-                <FAQ title="What does NFT Collection Comprise of?" />
-                <FAQ title="How to get our NFT?" />
-                <FAQ title="How much does our NFT cost?" />
-                <FAQ title="Will you list your NFT on OpenSea?" />
-                <FAQ title="What is a Rarity NFT?" />
-                <FAQ title="What is a Rarity NFT?" />
+<div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70">Have Questions?</div>
+
+                <FAQ title="What does NFT Collection Comprise of?" answer="This is an answer ofcourse can be changed This is an answer ofcourse can be changed" />
+                <FAQ title="How to get our NFT?"  answer="This is an answer ofcourse can be changed This is an answer ofcourse can be changed" />
+                <FAQ title="How much does our NFT cost?" answer="This is an answer ofcourse can be changed This is an answer ofcourse can be changed" />
+                <FAQ title="Will you list your NFT on OpenSea?"  answer="This is an answer ofcourse can be changed This is an answer ofcourse can be changed" />
 </div>
 
 

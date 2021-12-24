@@ -61,12 +61,13 @@ body{
 
 
 .accordion {
-  background-color: white;
+  background-color: rgb(86, 86, 255);
   max-width: 1160px;
   width: 100%;
   margin: 0 auto;
   border-radius: 12px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .accordion-btn {
@@ -82,7 +83,7 @@ body{
 }
 
 .accordion-btn p {
-  color: var(--dark-blue);
+  color: white;
 }
 
 .acordion-header-icon {
@@ -91,8 +92,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--dark-blue);
-  border: 2px solid var(--dark-blue);
+  color: white;
+  border: 2px solid white;
   border-radius: 4px;
 
   font-size: 1rem;
@@ -100,18 +101,13 @@ body{
   transition: all 0.2s ease;
 }
 
-.accordion-btn.active p {
-  color: var(--pink);
-}
-.accordion-btn.active .acordion-header-icon {
-  color: #fe9ec4;
 
-  border: 2px solid #fe9ec4;
-}
+
 
 .accordion-content {
   padding: 24px 36px;
-  padding-top: 0;
+  padding-top: 24px;
+  background-color: rgb(238, 238, 238);
   transition: all 0.2s ease;
 }
 
