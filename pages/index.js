@@ -116,6 +116,93 @@ export default function Home() {
 
 
 
+
+
+<div className="secondMaxWidth mx-auto px-7 w-full mt-32">
+<div className="font-bold w-fit text-3xl mx-auto mb-12">Overall Stats</div>
+
+
+<div className="grid grid-cols-3 gap-5 gap-y-10 mt-20 w-full">
+ <div>
+   <div className="opacity-80 mb-1">Current lowest price Shark available</div>
+   <div className="font-bold opacity-80">63.99 ETH ($229,700.20 USD)</div>
+ </div>
+
+
+ <div>
+   <div className="opacity-80 mb-1">Number of sales (last 12 months)</div>
+   <div className="font-bold opacity-80">$12,003</div>
+ </div>
+
+
+ <div>
+   <div className="opacity-80 mb-1">Total Value of All Sales (Lifetime)</div>
+   <div className="font-bold opacity-80">617.59K = ($1.79B)</div>
+ </div>
+
+
+ <div>
+   <div className="opacity-80 mb-1">Value of Sales (24 Hours)</div>
+   <div className="font-bold opacity-80">1.01K = ($3.85M)</div>
+ </div>
+
+
+
+
+ <div>
+   <div className="opacity-80 mb-1">Value of Sales (Week)</div>
+   <div className="font-bold opacity-80">9.85K = ($39.57)</div>
+ </div>
+
+
+ <div>
+   <div className="opacity-80 mb-1">Value of Sales (4 Week)</div>
+   <div className="font-bold opacity-80">31.5K = ($132.65M)</div>
+ </div>
+
+
+</div>
+
+
+
+<div className="grid grid-cols-2 gap-5 mt-10 mb-10">
+  <div className="flex items-center gap-5 font-bold px-4 text-white py-3 rounded-md bg-blue-500">
+  <i class="fal fa-bars text-2xl"></i>
+  <span className="text-lg opacity-95">Top Sharks Owners</span>
+  </div>
+
+  <div className="flex items-center gap-5 font-bold px-4 text-white py-3 rounded-md bg-blue-500">
+  <i class="fal fa-bars text-2xl"></i>
+  <span className="text-lg opacity-95">All Shark Type & Attributes</span>
+  </div>
+  
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div className="bg-blue-500 w-full pt-20 pb-24 mt-28">
 <div className="w-full widthMax mx-auto px-7">
 <div className="font-bold w-fit text-4xl mx-auto text-white mb-20">Our Family</div>
@@ -180,72 +267,6 @@ export default function Home() {
 
 
 </div>
-</div>
-
-
-
-
-<div className="secondMaxWidth mx-auto px-7 w-full mt-20">
-<div className="font-bold w-fit text-3xl mx-auto mb-12">Overall Stats</div>
-
-
-<div className="grid grid-cols-3 gap-5 gap-y-10 mt-20 w-full">
- <div>
-   <div className="opacity-80 mb-1">Current lowest price Shark available</div>
-   <div className="font-bold opacity-80">63.99 ETH ($229,700.20 USD)</div>
- </div>
-
-
- <div>
-   <div className="opacity-80 mb-1">Number of sales (last 12 months)</div>
-   <div className="font-bold opacity-80">$12,003</div>
- </div>
-
-
- <div>
-   <div className="opacity-80 mb-1">Total Value of All Sales (Lifetime)</div>
-   <div className="font-bold opacity-80">617.59K = ($1.79B)</div>
- </div>
-
-
- <div>
-   <div className="opacity-80 mb-1">Value of Sales (24 Hours)</div>
-   <div className="font-bold opacity-80">1.01K = ($3.85M)</div>
- </div>
-
-
-
-
- <div>
-   <div className="opacity-80 mb-1">Value of Sales (Week)</div>
-   <div className="font-bold opacity-80">9.85K = ($39.57)</div>
- </div>
-
-
- <div>
-   <div className="opacity-80 mb-1">Value of Sales (4 Week)</div>
-   <div className="font-bold opacity-80">31.5K = ($132.65M)</div>
- </div>
-
-
-</div>
-
-
-
-<div className="grid grid-cols-2 gap-5 mt-10 mb-10">
-  <div className="flex items-center gap-5 font-bold px-4 text-white py-3 rounded-md bg-blue-500">
-  <i class="fal fa-bars text-2xl"></i>
-  <span className="text-lg opacity-95">Top Sharks Owners</span>
-  </div>
-
-  <div className="flex items-center gap-5 font-bold px-4 text-white py-3 rounded-md bg-blue-500">
-  <i class="fal fa-bars text-2xl"></i>
-  <span className="text-lg opacity-95">All Shark Type & Attributes</span>
-  </div>
-  
-</div>
-
-
 </div>
 
 
