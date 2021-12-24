@@ -231,6 +231,16 @@ export default function Home() {
                 {
                   getI.category
                   }
+
+                  {
+                   getI.image.map((ttt) =>{
+                     return(
+                       <div>
+                           <img src={ttt.url} alt="" />
+                       </div>
+                     )
+                   })
+                  }
               </div>
             )
           })
