@@ -16,7 +16,7 @@ function FAQ({ title, answer }) {
         className={`accordion-btn ${show ? "active" : ""}`}
         onClick={handler}
       >
-        <p className=" teko fs-30px weight-4">{title}</p>{" "}
+        <p className=" teko fs-30px weight-4 font-bold">{title}</p>{" "}
         <div className="acordion-header-icon">
           {show ? <BsDashLg /> : <AiOutlinePlus style={{fontSize: "20px"}} />}
         </div>

@@ -21,9 +21,9 @@ export default function Home() {
        <title>Punk Sharks</title>
        <link rel="shortcut icon" href="/images/favicon.png" />
        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.1/css/all.css"/>
-       <link rel="preconnect" href="https://fonts.googleapis.com" />
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-       <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
+       <link rel="preconnect" href="https://fonts.googleapis.com"/>
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
      </Head>
 
      <div className="header z-10 px-7 sticky top-0 bg-white py-2">
@@ -38,7 +38,7 @@ export default function Home() {
        <a href="#" className="opacity-70 transition-colors hover:opacity-90">Stacking</a>
 </nav>
 
-<button className="px-5 py-3 bg-blue-500 cursor-pointer transition-colors hover:bg-blue-600 text-white font-bold rounded-md">Connect Wallet</button>
+<button className="px-5 py-3 bg-blue-500 cursor-pointer transition-colors hover:bg-blue-600 text-white font-extrabold rounded-md">Connect Wallet</button>
 
              </div>
      </div>
@@ -52,9 +52,9 @@ export default function Home() {
 <img src="/images/favicon.png" alt="shark icon" className="w-10 mb-5"/>
 
 </div>
-<div className="font-bold text-5xl mb-7">The Punk Sharks</div>
+<div className="font-extrabold text-5xl mb-7">The Punk Sharks</div>
 <p className="opacity-90 aboutText mb-10">CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear normal. Some look weird. Some are just damn cool! Maybe some even look familiar! CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear</p>
-<a href="https://opensea.io/collection/the-punksharks" target="_blank" className="px-5 flex items-center gap-2 w-fit  py-4 bg-blue-500 transition hover:bg-blue-600 text-white font-bold rounded-lg">
+<a href="https://opensea.io/collection/the-punksharks" target="_blank" className="px-5 flex items-center gap-2 w-fit  py-4 bg-blue-500 transition hover:bg-blue-600 text-white font-extrabold rounded-lg">
 <svg width="40" height="40" viewBox="0 0 90 90" fill="green" xmlns="http://www.w3.org/2000/svg">
 <path d="M90 45C90 69.8514 69.8514 90 45 90C20.1486 90 0 69.8514 0 45C0 20.1486 20.1486 0 45 0C69.8566 0 90 20.1486 90 45Z" fill="white"/>
 <path d="M22.2011 46.512L22.3953 46.2069L34.1016 27.8939C34.2726 27.6257 34.6749 27.6535 34.8043 27.9447C36.76 32.3277 38.4475 37.7786 37.6569 41.1721C37.3194 42.5683 36.3948 44.4593 35.3545 46.2069C35.2204 46.4612 35.0725 46.7109 34.9153 46.9513C34.8413 47.0622 34.7165 47.127 34.5824 47.127H22.5432C22.2196 47.127 22.0301 46.7756 22.2011 46.512Z" fill="#3b82f6"/>
@@ -99,7 +99,7 @@ export default function Home() {
 
 
 {/* FAQ */}
-<div className="faq mt-20 mx-auto">
+<div className="widthMax mt-20 mx-auto">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70">Have Questions?</div>
 
                 <FAQ title="What does NFT Collection Comprise of?" answer="This is an answer ofcourse can be changed This is an answer ofcourse can be changed" />
@@ -189,75 +189,14 @@ export default function Home() {
 
 
 
+<div className="widthMax mx-auto px-7 mt-32">
 
 
+<div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70">Largest Sales</div>
 
+<div className="grid grid-cols-5 gap-10">
 
-
-
-
-
-
-
-
-
-
-
-<div className="bg-blue-500 w-full pt-20 pb-24 mt-28">
-<div className="w-full widthMax mx-auto px-7">
-<div className="font-bold w-fit text-4xl mx-auto text-white mb-20">Our Family</div>
-
-<div className="flex items-center gap-10 text-white">
-<div className="familyImage rounded-lg overflow-hidden"><img src="/images/family1.png" alt="Shark" className="w-full h-full object-cover object-center" /></div>
-<div>
-  <div className="font-bold text-white text-xl mb-3">Cyber Shark</div>
-  <p className="mb-5 opacity-90">CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear normal. Some look weird. Some are just damn cool! Maybe some even look familiar! CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear normal. Some look</p>
-  <ul className="list-disc opacity-90 transform translate-x-5">
-    <li>Some text that can be changed as per requirments</li>
-    <li>Some text that can be changed as per requirments</li>
-    <li>Some text that can be changed as per requirments</li>
-    <li>Some text that can be changed as per requirments</li>
-  </ul>
-</div>
-</div>
-
-
-
-
-
-<div className="flex items-center gap-10 text-white mt-28">
-<div className="familyImage rounded-lg overflow-hidden"><img src="/images/family2.png" alt="Shark" className="w-full h-full object-cover object-center" /></div>
-<div>
-  <div className="font-bold text-white text-xl mb-3">Baby Shark</div>
-  <p className="mb-5 opacity-90">CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear normal. Some look weird. Some are just damn cool! Maybe some even look familiar! CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear normal. Some look</p>
-  <ul className="list-disc opacity-90 transform translate-x-5">
-    <li>Some text that can be changed as per requirments</li>
-    <li>Some text that can be changed as per requirments</li>
-    <li>Some text that can be changed as per requirments</li>
-    <li>Some text that can be changed as per requirments</li>
-  </ul>
-</div>
-</div>
-
-
-
-
-
-
-
-<div className="flex items-center gap-10 text-white mt-28">
-<div className="familyImage rounded-lg overflow-hidden"><img src="/images/family3.png" alt="Shark" className="w-full h-full object-cover object-center" /></div>
-<div>
-  <div className="font-bold text-white text-xl mb-3">Hungry Shark</div>
-  <p className="mb-5 opacity-90">CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear normal. Some look weird. Some are just damn cool! Maybe some even look familiar! CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear normal. Some look</p>
-  <ul className="list-disc opacity-90 transform translate-x-5">
-    <li>Some text that can be changed as per requirments</li>
-    <li>Some text that can be changed as per requirments</li>
-    <li>Some text that can be changed as per requirments</li>
-    <li>Some text that can be changed as per requirments</li>
-  </ul>
-</div>
-</div>
+<div className=""></div>
 
 
 
@@ -267,7 +206,21 @@ export default function Home() {
 
 
 </div>
+
+
+
+
+
 </div>
+
+
+
+
+
+
+
+
+
 
 
 
