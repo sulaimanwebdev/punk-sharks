@@ -133,12 +133,12 @@ body{
 
 
 .topCategoryGrid{
-  grid-template-columns: 230px 100px 1fr;
+  grid-template-columns: 240px 100px 1fr;
 }
 
 
 .mainCategoryGrid{
-  grid-template-columns: 230px 100px 1fr;
+  grid-template-columns: 240px 100px 1fr;
 
 }
 .sharkCategoryImage img{
