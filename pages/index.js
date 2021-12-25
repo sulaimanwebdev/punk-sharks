@@ -6,10 +6,10 @@ export default function Home() {
   const [getdata, setgetdata] = useState([]);
 
 
+
   const fetchData = async () => {
            const response = await fetch("http://localhost:3000/api/categories");
            setgetdata(await response.json());
-
 
   }
 
@@ -225,7 +225,7 @@ export default function Home() {
 <div className="vampire">
       <div>
         {
-          getdata.slice(1, 2).map((getI) =>{
+          getdata.map((getI) =>{
             return(
               <div>
                 {
@@ -233,10 +233,11 @@ export default function Home() {
                   }
 
                   {
+
                    getI.image.map((ttt) =>{
                      return(
                        <div>
-                           <img src={ttt.url} alt="" />
+                           <img src={ttt.imageLink} alt="" />
                        </div>
                      )
                    })
