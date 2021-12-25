@@ -22,34 +22,36 @@ const Categories = () => {
     return (
         <>
 
-		<div className="topCategoryGrid grid w-full">
-         <div className="font-bold opacity-80 text-xl">Type</div>
-         <div className="font-bold opacity-80 text-xl">#</div>
-         <div className="font-bold opacity-80 text-xl">More Examples</div>
+		<div className="topCategoryGrid grid w-full border-b pb-7  border-gray-300">
+         <div className="font-bold opacity-80 text-xl ">Type</div>
+         <div className="font-bold opacity-80 text-xl ">#</div>
+         <div className="font-bold opacity-80 text-xl ">More Examples</div>
 		</div>
 
 
 
-		<div className="mainContCategory">
+		<div className="mainContCategory w-full">
 			{
 				getdata.map((currElement) =>{
 					return(
-						<div className="grid mainCategoryGrid">
+						<div className="border-b  border-gray-300">
+							<div className="grid mainCategoryGrid">
 
-			               <div className="font-bold opacity-80 text-xl">{currElement.category}</div>
-                           <div className="font-bold opacity-80 text-xl">{currElement.numbers}</div>
-                           <div className="font-bold opacity-80 text-xl">
-						  <div className="flex mb-5">{ currElement.image.map((getImage) =>{
-								   return(
-									 <a href={getImage.openseaLink} className="sharkCategoryImage relative block"><img src={getImage.imageLink} className="w-10" alt="Shark Image" /></a>
-								   )
-							   })
-							}
-							</div>
-						   </div>
+<div className="font-bold opacity-80 text-xl py-2 flex items-center">{currElement.category}</div>
+<div className="font-bold opacity-80 text-xl py-2 flex items-center">{currElement.numbers}</div>
+<div className="font-bold opacity-80 text-xl">
+<div className="flex py-2 ">{ currElement.image.map((getImage) =>{
+		return(
+		  <a href={getImage.openseaLink} className="sharkCategoryImage relative block"><img src={getImage.imageLink} className="w-10" alt="Shark Image" /></a>
+		)
+	})
+ }
+ </div>
+</div>
 
 
-			            </div>
+</div>
+						</div>
 					)
 				})
 			}

@@ -58,6 +58,8 @@ body{
 
 
 
+
+
 .accordion {
   background-color: #3b82f6;
   max-width: 1400px;
@@ -131,16 +133,19 @@ body{
 
 
 .topCategoryGrid{
-  grid-template-columns: 250px 150px 1fr;
+  grid-template-columns: 230px 100px 1fr;
 }
 
 
 .mainCategoryGrid{
-  grid-template-columns: 250px 150px 1fr;
+  grid-template-columns: 230px 100px 1fr;
 
 }
+.sharkCategoryImage img{
+  transition: 0.1s;
+}
 .sharkCategoryImage:hover{
-  z-index: 100000000000000 !important;
+  z-index: 100 !important;
 
 }
 

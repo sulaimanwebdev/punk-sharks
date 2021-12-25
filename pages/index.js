@@ -88,7 +88,7 @@ export default function Home() {
 
 
 
-<div className="categories mt-20 mb-32 px-7">
+<div className="categories secondMaxWidth w-full mx-auto mt-20 mb-32 px-7">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70">Categories</div>
 
 
