@@ -39,9 +39,9 @@ const Categories = () => {
 			               <div className="font-bold opacity-80 text-xl">{currElement.category}</div>
                            <div className="font-bold opacity-80 text-xl">{currElement.numbers}</div>
                            <div className="font-bold opacity-80 text-xl">
-						   <div className="flex">{ currElement.image.map((getImage) =>{
+						  <div className="flex mb-5">{ currElement.image.map((getImage) =>{
 								   return(
-									 <a href={getImage.openseaLink}><img src={getImage.imageLink} className="w-10" alt="Shark Image" /></a>
+									 <a href={getImage.openseaLink} className="sharkCategoryImage relative block"><img src={getImage.imageLink} className="w-10" alt="Shark Image" /></a>
 								   )
 							   })
 							}

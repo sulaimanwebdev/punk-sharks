@@ -139,3 +139,12 @@ body{
   grid-template-columns: 250px 150px 1fr;
 
 }
+.sharkCategoryImage:hover{
+  z-index: 100000000000000 !important;
+
+}
+
+.sharkCategoryImage:hover img{
+  transform: scale(2);
+}
+
