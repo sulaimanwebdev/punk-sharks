@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "numbers": "1387",
         "category": "Alien",
         "image":[
             {
@@ -116,6 +117,7 @@
 
     {
         "id": 2,
+        "numbers": "1416",
         "category": "Ghost",
         "image":[
             {

@@ -2,22 +2,23 @@ import Head from 'next/head'
 import {useEffect, useState} from "react";
 import FAQ from '../components/FAQ';
 import LargestSales from '../components/LargestSales';
+import Categories from '../components/Categories';
 export default function Home() {
-  const [getdata, setgetdata] = useState([]);
+  // const [getdata, setgetdata] = useState([]);
 
 
 
-  const fetchData = async () => {
-           const response = await fetch("http://localhost:3000/api/categories");
-           setgetdata(await response.json());
+  // const fetchData = async () => {
+  //          const response = await fetch("http://localhost:3000/api/categories");
+  //          setgetdata(await response.json());
 
-  }
+  // }
 
 
-          useEffect(() => {
-            fetchData();
+  //         useEffect(() => {
+  //           fetchData();
 
-            }, []);
+  //           }, []);
 
   return (
    <>
@@ -87,9 +88,13 @@ export default function Home() {
 
 
 
-<div className="categories border h-96 flex items-center justify-center flex-col gap-2">
-<div className="font-bold text-4xl opacity-70">Categories</div>
-<p>Now working on this section</p>
+<div className="categories mt-20 mb-32 px-7">
+<div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70">Categories</div>
+
+
+<Categories/>
+
+
 </div>
 
 
@@ -222,32 +227,6 @@ export default function Home() {
 
 
 
-<div className="vampire">
-      <div>
-        {
-          getdata.map((getI) =>{
-            return(
-              <div>
-                {
-                  getI.category
-                  }
-
-                  {
-
-                   getI.image.map((ttt) =>{
-                     return(
-                       <div>
-                           <img src={ttt.imageLink} alt="" />
-                       </div>
-                     )
-                   })
-                  }
-              </div>
-            )
-          })
-        }
-      </div>
-</div>
 
 
 
