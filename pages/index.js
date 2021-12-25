@@ -76,19 +76,10 @@ export default function Home() {
    </div>
 
 
-{/* main */}
-
-
-        <div className="main text-center w-full px-7 mx-auto">
-          <a href="https://opensea.io/collection/the-punksharks" target="_blank" className="profile w-28 h-28 mx-auto overflow-hidden rounded-full flex items-center justify-center"><img src="/images/profile.gif" alt="Profile" className="w-full h-full object-cover object-center" /></a>
-
-         
-        </div>
 
 
 
-
-<div className="categories secondMaxWidth w-full mx-auto mt-20 mb-32 px-7">
+<div className="categories widthMax w-full mx-auto mt-20 mb-32 px-7">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70">Categories</div>
 
 
@@ -176,12 +167,12 @@ export default function Home() {
 
 <div className="grid grid-cols-2 gap-5 mt-10 mb-10">
   <div className="flex items-center gap-5 font-bold px-4 text-white py-3 rounded-md bg-blue-500">
-  <i class="fal fa-bars text-2xl"></i>
+  <i className="fal fa-bars text-2xl"></i>
   <span className="text-lg opacity-95">Top Sharks Owners</span>
   </div>
 
   <div className="flex items-center gap-5 font-bold px-4 text-white py-3 rounded-md bg-blue-500">
-  <i class="fal fa-bars text-2xl"></i>
+  <i className="fal fa-bars text-2xl"></i>
   <span className="text-lg opacity-95">All Shark Type & Attributes</span>
   </div>
   
