@@ -130,20 +130,28 @@ body{
 
 
 .topCategoryGrid{
-  grid-template-columns: 130px 80px 1fr;
+  grid-template-columns: 130px 70px 1fr;
 }
 
 
 .mainCategoryGrid{
-  grid-template-columns: 130px 80px 1fr;
+  grid-template-columns: 130px 70px 1fr;
 
 }
 .sharkCategoryImage img{
   transition: 0.1s;
-  max-width: 54px;
-  min-width: 54px;
+  max-width: 57px;
+  min-width: 57px;
   image-rendering: pixelated;
   width: 100%;
+}
+
+@media (max-width:1400px){
+  .sharkCategoryImage img{
+    max-width: 54.6px;
+    min-width: 54.6px;
+  }
+  
 }
 .sharkCategoryImage:hover{
   z-index: 100 !important;
