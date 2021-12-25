@@ -142,6 +142,7 @@ body{
   transition: 0.1s;
   max-width: 54px;
   min-width: 54px;
+  image-rendering: pixelated;
   width: 100%;
 }
 .sharkCategoryImage:hover{
