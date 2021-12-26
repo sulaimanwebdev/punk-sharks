@@ -70,7 +70,7 @@ const Categories = () => {
 
     <div className="mainContCategory w-full">
 			{
-				getdata.slice(7, 20).map((currElement) =>{
+				getdata.slice(7, 50).map((currElement) =>{
 					return(
 						<div className="border-b  border-gray-300" key={currElement.id}>
 							<div className="grid mainCategoryGrid">
