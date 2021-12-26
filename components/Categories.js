@@ -32,11 +32,11 @@ const Categories = () => {
 
 		<div className="mainContCategory w-full">
 			{
-				getdata.slice(0, 6).map((currElement) =>{
+				getdata.slice(0, 7).map((currElement) =>{
 					return(
 						<div className="border-b  border-gray-300" key={currElement.id}>
 							<div className="grid mainCategoryGrid">
-             <div className="font-bold text-xl py-2 flex items-center text-orange-400">{currElement.category}</div>
+             <div className="font-bold py-2 flex items-center text-orange-400 categoryName">{currElement.category}</div>
              <div className="font-bold opacity-70  text-base py-2 flex items-center">{currElement.numbers}</div>
              <div className="flex py-1">{ currElement.image.map((getImage) =>{
 		return(
@@ -70,11 +70,11 @@ const Categories = () => {
 
     <div className="mainContCategory w-full">
 			{
-				getdata.slice(6, 20).map((currElement) =>{
+				getdata.slice(7, 20).map((currElement) =>{
 					return(
 						<div className="border-b  border-gray-300" key={currElement.id}>
 							<div className="grid mainCategoryGrid">
-             <div className="font-bold text-xl py-2 flex items-center text-orange-400">{currElement.category}</div>
+             <div className="font-bold py-2 flex items-center text-orange-400 categoryName">{currElement.category}</div>
              <div className="font-bold opacity-70  text-base py-2 flex items-center">{currElement.numbers}</div>
              <div className="flex py-1">{ currElement.image.map((getImage) =>{
 		return(

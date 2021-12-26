@@ -144,6 +144,7 @@ body{
   min-width: 57px;
   image-rendering: pixelated;
   width: 100%;
+  
 }
 
 @media (max-width:1400px){
@@ -162,3 +163,6 @@ body{
   transform: scale(2);
 }
 
+.categoryName{
+  font-size: 18px;
+}
