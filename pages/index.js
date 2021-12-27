@@ -31,7 +31,7 @@ export default function Home() {
        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
      </Head>
 
-     <div className="header z-10  sticky top-0 bg-white py-2">
+     <div className="header   sticky top-0 bg-white py-2">
              <div className="mx-auto w-full px-7 widthMax flex items-center justify-between">
              <div className="logo"><a href="#" className="flex items-center gap-2 font-bold "><img src="/images/favicon.png" className="w-14" alt="Logo"/> <span className="opacity-80">Punk Sharks</span></a></div>
 
