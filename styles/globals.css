@@ -339,3 +339,10 @@ body{
     width: 100%;
   }
 }
+
+
+@media (max-width: 500px){
+  .imagesContCategoriess{
+    padding: 10px 0 !important;
+  }
+}
