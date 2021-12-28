@@ -86,8 +86,8 @@ body{
 }
 
 .acordion-header-icon {
-  width: 36px;
-  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,7 +112,7 @@ body{
 }
 
 .accordion-body {
-  height: 0;
+  height: 200px;
   transition: all 0.2s ease;
 }
 
@@ -124,6 +124,11 @@ body{
     padding: 18px 1rem;
     padding-bottom: 18px;
   }
+
+.acordion-header-icon {
+  min-width: 30px;
+  min-height: 30px;
+}
 }
 
 
