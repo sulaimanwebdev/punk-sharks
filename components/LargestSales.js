@@ -164,7 +164,7 @@ const LargestSales = () => {
     ]
     return (
         <>
-        <div className="grid grid-cols-5 gap-10">
+        <div className="grid largestSalesGrid grid-cols-5 gap-10">
 {
     Sharks.map((currentShark) =>{
         return(

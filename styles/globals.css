@@ -122,7 +122,7 @@ body{
   }
   .accordion-content {
     padding: 18px 1rem;
-    padding-top: 0;
+    padding-bottom: 18px;
   }
 }
 
@@ -166,4 +166,171 @@ body{
 
 .categoryName{
   font-size: 18px;
+}
+
+
+
+/* Responsive */
+
+@media (max-width:1084px){
+  .lgScreenNav{
+    gap: 50px !important;
+  }
+}
+
+
+@media (max-width:1004px){
+  .lgScreenBtn{
+    display: none;
+  }
+  .lgScreenNav{
+    display: none;
+  }
+  .burger-menu{
+    display: block !important;
+  }
+  .mobileMenu{
+    display: block !important;
+    transition: 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(-100%);
+   
+  }
+.mobileMenu nav i{
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  opacity: 0.7;
+  font-size: 33px;
+}
+  .mobileMenu nav{
+    display: flex;
+    gap: 30px;
+  
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 30px;
+    border-bottom: 1px solid rgba(192, 192, 192, 0.63);
+    flex-direction: column;
+  }
+  
+}
+
+.openMenu{
+  transform: translateY(0) !important;
+}
+
+
+@media (max-width:500px){
+  .mainTitle{
+    font-size: 44px !important;
+  }
+  .mainParagraph{
+    font-size: 15px;
+    opacity: 0.8;
+  }
+}
+
+
+@media (max-width:414px){
+  .mainTitle{
+    font-size: 38px !important;
+  }
+.openseaLogo{
+  display: none;
+}
+
+.topSection{
+  margin-top: 40px !important;
+}
+
+.banner{
+  height: 200px;
+}
+
+.sectionTitle{
+  font-size: 28px;
+  text-align: center;
+}
+
+.faqTitle{
+  margin-bottom: 50px;
+}
+}
+
+
+
+
+@media (max-width:352px){
+  .mainTitle{
+    font-size: 34px !important;
+  }
+
+}
+
+
+
+@media (max-width:318px){
+  .mainTitle{
+    line-height: 1.4;
+  }
+
+}
+
+
+
+
+@media (max-width:873px){
+  .statsGrid{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .statsSecondGrid{
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (max-width:533px){
+  .statsGrid{
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+@media (max-width:1081px){
+  .largestSalesGrid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width:669px){
+  .largestSalesGrid{
+    grid-template-columns: 1fr 1fr ;
+  }
+}
+
+@media (max-width:435px){
+  .largestSalesGrid{
+    gap: 20px;
+  }
+}
+
+
+
+@media (max-width:395px){
+  .largestSalesGrid{
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .largestSalesGrid img{
+    width: 100%;
+  }
 }
