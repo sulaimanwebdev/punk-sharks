@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import FAQ from '../components/FAQ';
 import LargestSales from '../components/LargestSales';
 import Categories from '../components/Categories';
+import ProvenenceRecord from '../components/ProvenenceRecord';
 export default function Home() {
    const [Menu, setMenu] = useState('');
 
@@ -230,6 +231,31 @@ export default function Home() {
 
 
 
+
+
+
+<div className="widthMax mx-auto px-7 mt-32 mb-20">
+<div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Details</div>
+
+<div className="text-3xl font-medium mb-7">Contract Details</div>
+<div className="flex items-center contractFlex w-full">
+<div className="contractWord text-xl opacity-80">Contract</div>
+<a className="w-fit border-b-2 border-blue-500 text-blue-600 transition hover:border-blue-800 hover:text-blue-800 contractLink" href="https://polygonscan.com/token/0xB536eFc10864408A2F491D1A6dFb0e76567C6659" style={{wordBreak: "normal"}}>0xB536eFc10864408A2F491D1A6dFb0e76567C6659</a>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
 <div className="categories border h-96 flex items-center justify-center text-center flex-col gap-2">
 <div className="font-bold text-4xl opacity-70">Concatinated Hash String</div>
 <p>Will add content later</p>
@@ -237,13 +263,18 @@ export default function Home() {
 
 
 
-<div className="categories border h-96 flex items-center text-center justify-center flex-col gap-2">
-<div className="font-bold text-4xl opacity-70">Provenance Record</div>
-<p>Will add content later</p>
+
+
+
+
+
+<div className="widthMax mx-auto px-7 mt-32 mb-10">
+<div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Provenence Record</div>
+
+<ProvenenceRecord/>
+
+
 </div>
-
-
-
 
 
 

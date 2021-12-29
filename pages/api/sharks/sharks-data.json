@@ -1,23 +1,46 @@
 [
     {
         "id": 1,
-        "name": "NFT 1"
+        "dna": "a3904223c3945a3c04e966e49a63c2b47e84b6f5",
+        "openseaLink": "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/1",
+        "imageLink": "https://gateway.pinata.cloud/ipfs/Qme4gVeMjq7QBHTikE3bUYHYb3gBCuzgdTyXsARCiTCx69/1.png"
     },
 
     {
         "id": 2,
-        "name": "NFT 2"
+        "dna": "6f4dd5807f36ae7f2598e498bad2e54e58baa2ba",
+        "openseaLink": "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/2",
+        "imageLink": "https://gateway.pinata.cloud/ipfs/Qme4gVeMjq7QBHTikE3bUYHYb3gBCuzgdTyXsARCiTCx69/2.png"
     },
 
 
     {
         "id": 3,
-        "name": "NFT 3"
+        "dna": "4cfcb3038ad21a3d668380b82e0c26ea49eeaffd",
+        "openseaLink": "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/3",
+        "imageLink": "https://gateway.pinata.cloud/ipfs/Qme4gVeMjq7QBHTikE3bUYHYb3gBCuzgdTyXsARCiTCx69/3.png"
     },
+
+
 
     {
         "id": 4,
-        "name": "NFT 4"
+        "dna": "377c3f23aff3f9d33b975e5e1f1b63c1a95496da",
+        "openseaLink": "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/4",
+        "imageLink": "https://gateway.pinata.cloud/ipfs/Qme4gVeMjq7QBHTikE3bUYHYb3gBCuzgdTyXsARCiTCx69/4.png"
+    },
+
+
+
+
+    {
+        "id": 5,
+        "dna": "023a43067f1aea3c5f1c0d1351e23c0035d624f5",
+        "openseaLink": "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/5",
+        "imageLink": "https://gateway.pinata.cloud/ipfs/Qme4gVeMjq7QBHTikE3bUYHYb3gBCuzgdTyXsARCiTCx69/5.png"
     }
+
+
+
  
 ]
