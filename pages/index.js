@@ -4,6 +4,7 @@ import FAQ from '../components/FAQ';
 import LargestSales from '../components/LargestSales';
 import Categories from '../components/Categories';
 import ProvenenceRecord from '../components/ProvenenceRecord';
+import Sharks from './api/sharks/sharks-data.json'
 export default function Home() {
    const [Menu, setMenu] = useState('');
 
@@ -32,6 +33,9 @@ export default function Home() {
     setMenu('');
 
   }
+
+  
+
   return (
    <>
      <Head>
