@@ -3,8 +3,8 @@ import {useEffect, useState} from "react";
 import FAQ from '../components/FAQ';
 import LargestSales from '../components/LargestSales';
 import Categories from '../components/Categories';
+import ConcatinatedHashString from '../components/ConcatinatedHashString'
 import ProvenenceRecord from '../components/ProvenenceRecord';
-import Sharks from './api/sharks/sharks-data.json'
 export default function Home() {
    const [Menu, setMenu] = useState('');
 
@@ -260,9 +260,12 @@ export default function Home() {
 
 
 
-<div className="categories border h-96 flex items-center justify-center text-center flex-col gap-2">
-<div className="font-bold text-4xl opacity-70">Concatinated Hash String</div>
-<p>Will add content later</p>
+<div className="categories widthMax mx-auto px-7">
+<div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Concatinated Hash String</div>
+
+
+<ConcatinatedHashString/>
+
 </div>
 
 
