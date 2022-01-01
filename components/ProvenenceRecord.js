@@ -24,7 +24,6 @@ let SortData = Sharks.sort((a, b) => a.edition - b.edition);
 
 
     return (
-        <div className="mainProvenceRecordConttt">
         <div className="provenenceRecord">
          <div className="provenceGrid provenceGrid-1 pb-2">
          <div className="sharkID font-bold provenenceRTitles text-xl opacity-80">Shark ID</div>
@@ -57,7 +56,6 @@ let SortData = Sharks.sort((a, b) => a.edition - b.edition);
          </div>
         
             
-        </div>
     )
 }
 
