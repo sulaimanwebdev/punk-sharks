@@ -7,7 +7,7 @@ export default function helloAPI(req, res) {
 // let SortData = Sharks.sort((a, b) => a.edition - b.edition);
  
 
-  res.status(200).json("Something went wrong")
+  res.status(200).json("505 error")
 
 // }
 

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import {useEffect, useState} from "react";
 import FAQ from '../components/FAQ';
 import LargestSales from '../components/LargestSales';
-import Categories from '../components/Categories';
+// import Categories from '../components/Categories';
 import ConcatinatedHashString from '../components/ConcatinatedHashString'
 import ProvenenceRecord from '../components/ProvenenceRecord';
 export default function Home() {
@@ -115,7 +115,7 @@ export default function Home() {
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Categories</div>
 
 
-<Categories/>
+{/* <Categories/> */}
 
 
 </div>

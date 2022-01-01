@@ -1,6 +1,6 @@
 import React from 'react'
 import {useEffect, useState} from "react";
-
+import CategoriesData from '../pages/api/categories/categories.json'
 
 
 const Categories = () => {
@@ -9,9 +9,8 @@ const Categories = () => {
 
 
 
-  const fetchData = async () => {
-           const response = await fetch("/api/categories");
-           setgetdata(await response.json());
+  const fetchData =  () => {
+           setgetdata(CategoriesData);
 
   }
 
