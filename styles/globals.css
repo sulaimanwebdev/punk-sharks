@@ -455,7 +455,12 @@ border-left: 1px solid rgb(184, 184, 184);
 
 
 @media (max-width:830px){
+  
   .provenenceRecord{
+    overflow-x: hidden;
+  }
+  
+  .provenceGrid{
     overflow-x: scroll;
     min-width: 830px;
 
