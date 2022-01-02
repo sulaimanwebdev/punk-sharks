@@ -4,7 +4,7 @@ import FAQ from '../components/FAQ';
 import LargestSales from '../components/LargestSales';
 import Categories from '../components/Categories';
 import ConcatinatedHashString from '../components/ConcatinatedHashString'
-// import ProvenenceRecord from '../components/ProvenenceRecord';
+import ProvenenceRecord from '../components/ProvenenceRecord';
 export default function Home() {
    const [Menu, setMenu] = useState('');
 
@@ -275,10 +275,10 @@ export default function Home() {
 
 
 
-<div className="widthMax mx-auto px-7 mt-32 mb-10">
+<div className="widthMax overflow-hidden mx-auto px-7 mt-32 mb-10">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Provenence Record</div>
 
-{/* <ProvenenceRecord/> */}
+<ProvenenceRecord/>
 
 
 </div>
