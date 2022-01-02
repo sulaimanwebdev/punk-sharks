@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import {useEffect, useState} from "react";
+import Header from '../components/Header'
 import FAQ from '../components/FAQ';
 import LargestSales from '../components/LargestSales';
 import Categories from '../components/Categories';
 import ConcatinatedHashString from '../components/ConcatinatedHashString'
-import ProvenenceRecord from '../components/ProvenenceRecord';
 export default function Home() {
    const [Menu, setMenu] = useState('');
 
@@ -47,40 +47,8 @@ export default function Home() {
        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
      </Head>
 
-     <div className="header   sticky top-0 bg-white py-2">
-             <div className="mx-auto w-full px-7 widthMax flex items-center justify-between">
-             <div className="logo"><a href="#" className="flex items-center gap-2 font-bold "><img src="/images/favicon.png" className="w-14" alt="Logo"/> <span className="opacity-80">Punk Sharks</span></a></div>
-
-<nav className="flex items-center lgScreenNav gap-20 font-bold">
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Home</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Project</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Games</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Rewards</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Stacking</a>
-</nav>
-
-<a href="https://opensea.io/collection/the-punksharks" className="px-5 py-3 bg-blue-500 cursor-pointer lgScreenBtn transition-colors hover:bg-blue-600 text-white font-extrabold rounded-md">Connect Wallet</a>
-
-<img src="/images/burger-menu.svg" alt="menu icon" className="w-7 cursor-pointer burger-menu hidden" onClick={openMenu} />
-
-
-<div className={`mobileMenu hidden ${Menu}`}>
-<nav className="flex items-center gap-20 font-bold">
-<i class="far fa-times cursor-pointer" onClick={closeMenu}></i>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Home</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Project</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Games</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Rewards</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Stacking</a>
-<a href="https://opensea.io/collection/the-punksharks" className="px-5 py-3 bg-blue-500 cursor-pointer transition-colors hover:bg-blue-600 text-white font-extrabold rounded-md">Connect Wallet</a>
-
-</nav>
-
-</div>
-             </div>
-     </div>
-
-
+   
+<Header/>
 
 <div className="widthMax topSection mb-20 mx-auto px-7 w-full mt-14">
 <div className="flex">
@@ -260,7 +228,7 @@ export default function Home() {
 
 
 
-<div className="categories widthMax mx-auto px-7">
+<div className="categories widthMax mx-auto px-7 mb-10">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Concatinated Hash String</div>
 
 
@@ -270,18 +238,6 @@ export default function Home() {
 
 
 
-
-
-
-
-
-<div className="widthMax overflow-hidden mx-auto px-7 mt-32 mb-10">
-<div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Provenence Record</div>
-
-<ProvenenceRecord/>
-
-
-</div>
 
 
 

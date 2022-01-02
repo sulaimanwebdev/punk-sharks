@@ -1,16 +1,15 @@
 import React, {useState, useEffect} from 'react'
-import Sharks from '../pages/api/sharks/sharks-data.json'
 const ProvenenceRecord = () => {
 
 
   const [getdata, setgetdata] = useState([]);
 
 
-
-  const fetchData = () => {
-let SortData = Sharks.sort((a, b) => a.edition - b.edition);
+  
+  const fetchData =  async () => {
+           const response = await fetch("/api/sharks");
        
-    setgetdata(SortData);
+setgetdata(await response.json());
 
 
   }
@@ -26,10 +25,10 @@ let SortData = Sharks.sort((a, b) => a.edition - b.edition);
     return (
         <div className="provenenceRecord">
          <div className="provenceGrid provenceGrid-1 pb-2">
-         <div className="sharkID font-bold provenenceRTitles text-xl opacity-80">Shark ID</div>
-          <div className="font-bold provenenceRTitles text-xl opacity-80">DNA</div>
-          <div className="font-bold provenenceRTitles text-xl opacity-80">Opensea Link</div>
-          <div className="font-bold provenenceRTitles text-xl opacity-80">Image</div>
+         <div className="sharkID font-bold provenenceRTitles text-base opacity-80">Shark ID</div>
+          <div className="font-bold provenenceRTitles text-base opacity-80">DNA</div>
+          <div className="font-bold provenenceRTitles text-base opacity-80">Opensea Link</div>
+          <div className="font-bold provenenceRTitles text-base opacity-80">Image</div>
          </div>
 
 
