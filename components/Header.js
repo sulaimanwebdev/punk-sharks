@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import {useState} from "react";
+
 const Header = () => {
     const [Menu, setMenu] = useState('');
 
@@ -12,6 +13,10 @@ const Header = () => {
     setMenu('');
 
   }
+
+
+  window.location.path
+
 
     return (
         <>
@@ -35,15 +40,18 @@ const Header = () => {
 
 
 <div className={`mobileMenu hidden ${Menu}`}>
-<nav className="flex items-center gap-20 font-bold">
+<nav className="">
 <i class="far fa-times cursor-pointer" onClick={closeMenu}></i>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Home</a>
-       <a href="#categories" className="opacity-70 transition-colors hover:opacity-90">Categories</a>
-       <a href="#faq" className="opacity-70 transition-colors hover:opacity-90">FAQ</a>
-       <a href="#stats" className="opacity-70 transition-colors hover:opacity-90">Stats</a>
-       <a href="#largestSales" className="opacity-70 transition-colors hover:opacity-90">Largest Sales</a>
-       <a href="#details" className="opacity-70 transition-colors hover:opacity-90">Details</a>
+     <div className="flex mmmb items-center gap-20 font-bold">
+     <a onClick={closeMenu} href="#" className="opacity-70 transition-colors hover:opacity-90">Home</a>
+       <a onClick={closeMenu} href="#categories" className="opacity-70 transition-colors hover:opacity-90">Categories</a>
+       <a onClick={closeMenu} href="#faq" className="opacity-70 transition-colors hover:opacity-90">FAQ</a>
+       <a onClick={closeMenu} href="#stats" className="opacity-70 transition-colors hover:opacity-90">Stats</a>
+       <a onClick={closeMenu} href="#largestSales" className="opacity-70 transition-colors hover:opacity-90">Largest Sales</a>
+       <a onClick={closeMenu} href="#details" className="opacity-70 transition-colors hover:opacity-90">Details</a>
        <Link href="/provenance"><div className="px-5 py-3 bg-blue-500 cursor-pointer transition-colors hover:bg-blue-600 text-white font-extrabold rounded-md">Provenance</div></Link>
+   
+     </div>
 
 </nav>
 
