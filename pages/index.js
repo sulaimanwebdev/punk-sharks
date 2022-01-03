@@ -6,7 +6,7 @@ import LargestSales from '../components/LargestSales';
 import Categories from '../components/Categories';
 import ConcatinatedHashString from '../components/ConcatinatedHashString'
 export default function Home() {
-   const [Menu, setMenu] = useState('');
+ 
 
   // const [getdata, setgetdata] = useState([]);
 
@@ -25,14 +25,6 @@ export default function Home() {
   //           }, []);
 
 
-  let openMenu = () =>{
-    setMenu('openMenu');
-  }
-  
-  let closeMenu = () =>{
-    setMenu('');
-
-  }
 
   
 
@@ -50,7 +42,7 @@ export default function Home() {
    
 <Header/>
 
-<div className="widthMax topSection mb-20 mx-auto px-7 w-full mt-14">
+<div id="home" className="widthMax scroll-mt-30	 topSection mb-20 mx-auto px-7 w-full mt-14">
 <div className="flex">
 <img src="/images/small-shark.png" alt="shark icon" className="w-10 mb-5"/>
 <img src="/images/small-shark2.png" alt="shark icon" className="w-10 mb-5"/>
@@ -79,7 +71,7 @@ export default function Home() {
 
 
 
-<div className="categories widthMax w-full mx-auto mt-20 mb-32 px-7">
+<div id="categories" className="categories scroll-mt-32 widthMax w-full mx-auto mt-20 mb-32 px-7">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Categories</div>
 
 
@@ -99,7 +91,7 @@ export default function Home() {
 
 
 {/* FAQ */}
-<div className="px-7 mt-20 mx-auto">
+<div id="faq" className="px-7 mt-20 mx-auto scroll-mt-32">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 faqTitle sectionTitle">Have Questions?</div>
 
                 <FAQ title="What does NFT Collection Comprise of?" answer="This is an answer ofcourse can be changed This is an answer ofcourse can be changed" />
@@ -118,7 +110,7 @@ export default function Home() {
 
 
 
-<div className="secondMaxWidth mx-auto px-7 w-full mt-32">
+<div id="stats" className="secondMaxWidth mx-auto px-7 w-full mt-32 scroll-mt-32">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Overall Stats</div>
 
 
@@ -189,7 +181,7 @@ export default function Home() {
 
 
 
-<div className="widthMax mx-auto px-7 mt-32 mb-20">
+<div id="largestSales" className="widthMax mx-auto px-7 mt-32 mb-20 scroll-mt-32">
 
 
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Largest Sales</div>
@@ -206,7 +198,7 @@ export default function Home() {
 
 
 
-<div className="widthMax mx-auto px-7 mt-32 mb-20">
+<div id="details" className="widthMax mx-auto px-7 mt-32 mb-20 scroll-mt-32">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Details</div>
 
 <div className="text-3xl font-medium mb-7">Contract Details</div>
@@ -228,7 +220,7 @@ export default function Home() {
 
 
 
-<div className="categories widthMax mx-auto px-7 mb-10">
+<div className=" widthMax mx-auto px-7 mb-10">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Concatinated Hash String</div>
 
 

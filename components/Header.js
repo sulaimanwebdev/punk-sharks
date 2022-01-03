@@ -21,11 +21,11 @@ const Header = () => {
 
 <nav className="flex items-center lgScreenNav gap-20 font-bold">
        <a href="#" className="opacity-70 transition-colors hover:opacity-90">Home</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Categories</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">FAQ</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Stats</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Largest Sales</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Details</a>
+       <a href="#categories" className="opacity-70 transition-colors hover:opacity-90">Categories</a>
+       <a href="#faq" className="opacity-70 transition-colors hover:opacity-90">FAQ</a>
+       <a href="#stats" className="opacity-70 transition-colors hover:opacity-90">Stats</a>
+       <a href="#largestSales" className="opacity-70 transition-colors hover:opacity-90">Largest Sales</a>
+       <a href="#details" className="opacity-70 transition-colors hover:opacity-90">Details</a>
 <Link href="/provenance"><div className="px-5 py-3 bg-blue-500 cursor-pointer lgScreenBtn transition-colors hover:bg-blue-600 text-white font-extrabold rounded-md">Provenance</div></Link>
 
 </nav>
@@ -38,11 +38,11 @@ const Header = () => {
 <nav className="flex items-center gap-20 font-bold">
 <i class="far fa-times cursor-pointer" onClick={closeMenu}></i>
        <a href="#" className="opacity-70 transition-colors hover:opacity-90">Home</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Categories</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">FAQ</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Stats</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Largest Sales</a>
-       <a href="#" className="opacity-70 transition-colors hover:opacity-90">Details</a>
+       <a href="#categories" className="opacity-70 transition-colors hover:opacity-90">Categories</a>
+       <a href="#faq" className="opacity-70 transition-colors hover:opacity-90">FAQ</a>
+       <a href="#stats" className="opacity-70 transition-colors hover:opacity-90">Stats</a>
+       <a href="#largestSales" className="opacity-70 transition-colors hover:opacity-90">Largest Sales</a>
+       <a href="#details" className="opacity-70 transition-colors hover:opacity-90">Details</a>
        <Link href="/provenance"><div className="px-5 py-3 bg-blue-500 cursor-pointer transition-colors hover:bg-blue-600 text-white font-extrabold rounded-md">Provenance</div></Link>
 
 </nav>
