@@ -6,10 +6,10 @@ const LargestSales = () => {
         {
             id: 1,
             image: "https://lh3.googleusercontent.com/XRko002ajAptxqg9uNEhxaKRAQdtvBK7ouaBz1HwmWNDcl4UNedy18fg201qsCCSa5T8wYDJu-VGU9NiwlFa71EnY46by3TlK1QE0Q=w600",
-            index: "#8415",
+            index: "#45",
             price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/8415"
+            date: "a month ago",
+            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/45"
 
         },
 

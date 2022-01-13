@@ -119,40 +119,21 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 <div className="grid grid-cols-3 gap-5 gap-y-10 mt-20 w-full statsGrid">
  <div>
    <div className="opacity-80 mb-1">Current lowest price Shark available</div>
-   <div className="font-bold opacity-80">63.99 ETH ($229,700.20 USD)</div>
+   <div className="font-bold opacity-80">0.0007 ETH ($2.35 USD)</div>
  </div>
 
 
  <div>
    <div className="opacity-80 mb-1">Number of sales (last 12 months)</div>
-   <div className="font-bold opacity-80">$12,003</div>
+   <div className="font-bold opacity-80">0.03 ETH ($101 USD)</div>
  </div>
 
 
  <div>
    <div className="opacity-80 mb-1">Total Value of All Sales (Lifetime)</div>
-   <div className="font-bold opacity-80">617.59K = ($1.79B)</div>
+   <div className="font-bold opacity-80">0.03 ETH ($101 USD)</div>
  </div>
 
-
- <div>
-   <div className="opacity-80 mb-1">Value of Sales (24 Hours)</div>
-   <div className="font-bold opacity-80">1.01K = ($3.85M)</div>
- </div>
-
-
-
-
- <div>
-   <div className="opacity-80 mb-1">Value of Sales (Week)</div>
-   <div className="font-bold opacity-80">9.85K = ($39.57)</div>
- </div>
-
-
- <div>
-   <div className="opacity-80 mb-1">Value of Sales (4 Week)</div>
-   <div className="font-bold opacity-80">31.5K = ($132.65M)</div>
- </div>
 
 
 </div>
