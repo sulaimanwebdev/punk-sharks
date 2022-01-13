@@ -97,10 +97,9 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 <div id="faq" className="px-7 mt-20 mx-auto scroll-mt-32">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 faqTitle sectionTitle">Have Questions?</div>
 
-                <FAQ title="What does NFT Collection Comprise of?" answer="This is an answer ofcourse can be changed This is an answer ofcourse can be changed" />
-                <FAQ title="How to get our NFT?"  answer="This is an answer ofcourse can be changed This is an answer ofcourse can be changed" />
-                <FAQ title="How much does our NFT cost?" answer="This is an answer ofcourse can be changed This is an answer ofcourse can be changed" />
-                <FAQ title="Will you list your NFT on OpenSea?"  answer="This is an answer ofcourse can be changed This is an answer ofcourse can be changed" />
+                <FAQ title="What is Punk Sharks?" answer="Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital collectibles with proof of ownership on the Polygon blockchain. All PunkSharks are cool and contains different combination of traits but some are rarer than others." />
+                <FAQ title="Where can I buy a Shark?" answer="All the Sharks are minted on Opensea, you can buy easily on Opensea" />
+                <FAQ title="How much gas fee will I have to pay to pay to buy a Shark?"  answer="You don't have to pay any gas fee, It's on Polygon Chain" />
 </div>
 
 
