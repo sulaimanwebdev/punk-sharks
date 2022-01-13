@@ -1,16 +1,18 @@
 import React, {useState, useEffect} from 'react'
+import Sharks from '../pages/api/sharks/sharks-data.json'
+
 const ProvenenceRecord = () => {
 
 
+  
   const [getdata, setgetdata] = useState([]);
 
 
-  
-  const fetchData =  async () => {
-           const response = await fetch("/api/sharks");
-       
-setgetdata(await response.json());
 
+  const fetchData =  () => {
+let SortData = Sharks.sort((a, b) => a.edition - b.edition);
+
+           setgetdata(SortData);
 
   }
 
@@ -19,6 +21,8 @@ setgetdata(await response.json());
             fetchData();
 
             }, []);
+
+
             
 
 
