@@ -15,7 +15,6 @@ const Header = () => {
   }
 
 
-  window.location.path
 
 
     return (

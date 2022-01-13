@@ -232,7 +232,9 @@ grid-template-columns: 70px 1fr 130px 130px;
 
 
 
-
+.specs{
+  max-width: 1000px;
+}
 
 
 
@@ -476,5 +478,11 @@ border-left: 1px solid rgb(184, 184, 184);
   .contractLink{
     word-break: break-all !important;
 
+  }
+}
+
+@media (max-width: 535px){
+  .contractWord{
+    font-size: 16px !important;
   }
 }

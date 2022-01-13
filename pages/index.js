@@ -50,7 +50,10 @@ export default function Home() {
 
 </div>
 <div className="font-extrabold text-5xl mb-7 mainTitle">The Punk Sharks</div>
-<p className="opacity-90 aboutText mb-10 mainParagraph">CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear normal. Some look weird. Some are just damn cool! Maybe some even look familiar! CyberKongz are unique and randomly generated 2D/3D NFT Social Avatars for your online experiences. Some appear</p>
+<p className="opacity-90 aboutText mb-7 mainParagraph">
+Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital collectibles with proof of ownership on the Polygon blockchain. All PunkSharks are cool and contains different combination of traits but some are rarer than others. 
+<span className="mt-3 block">Own a PunkShark and be a part of the evolution of the internet!</span>
+</p>
 <a href="https://opensea.io/collection/the-punksharks" target="_blank" className="px-5 flex items-center gap-2 w-fit  py-4 bg-blue-500 transition hover:bg-blue-600 text-white font-extrabold rounded-lg">
 <svg width="40" className="openseaLogo" height="40" viewBox="0 0 90 90" fill="green" xmlns="http://www.w3.org/2000/svg">
 <path d="M90 45C90 69.8514 69.8514 90 45 90C20.1486 90 0 69.8514 0 45C0 20.1486 20.1486 0 45 0C69.8566 0 90 20.1486 90 45Z" fill="white"/>
@@ -198,14 +201,15 @@ export default function Home() {
 
 
 
-<div id="details" className="widthMax mx-auto px-7 mt-32 mb-20 scroll-mt-32">
+<div id="details" className="widthMax mx-auto text-center px-7 mt-32 mb-32 scroll-mt-32">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Details</div>
-
-<div className="text-3xl font-medium mb-7">Contract Details</div>
-<div className="flex items-center contractFlex w-full">
+<div className="text-3xl font-medium mb-10 mx-auto">Contract Details</div>
+<div className="flex items-center contractFlex justify-center mx-auto w-full">
 <div className="contractWord text-xl opacity-80">Contract</div>
 <a className="w-fit border-b-2 border-blue-500 text-blue-600 transition hover:border-blue-800 hover:text-blue-800 contractLink" href="https://polygonscan.com/token/0xB536eFc10864408A2F491D1A6dFb0e76567C6659" style={{wordBreak: "normal"}}>0xB536eFc10864408A2F491D1A6dFb0e76567C6659</a>
 </div>
+<p className="text-center mt-10 specs mx-auto">The PunkSharks are 32bit pixel art images and generated algorithmically. These are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS. (Check Provenance Record).</p>
+
 
 
 
