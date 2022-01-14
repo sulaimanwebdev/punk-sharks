@@ -1,7 +1,9 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import {useEffect, useState} from "react";
 import Header from '../components/Header'
 import FAQ from '../components/FAQ';
+import FAQTutorial from '../components/FAQTutorial';
 import LargestSales from '../components/LargestSales';
 import Categories from '../components/Categories';
 import ConcatinatedHashString from '../components/ConcatinatedHashString'
@@ -51,7 +53,7 @@ export default function Home() {
 </div>
 <div className="font-extrabold text-5xl mb-7 mainTitle">The Punk Sharks</div>
 <p className="opacity-90 aboutText mb-7 mainParagraph">
-Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital collectibles with proof of ownership on the Polygon blockchain. All PunkSharks are cool and contains different combination of traits but some are rarer than others. 
+Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital collectibles with proof of ownership on the Polygon blockchain. All PunkSharks are cool and contains a different combination of traits but some are rarer than others.
 <span className="mt-3 block">Own a PunkShark and be a part of the evolution of the internet!</span>
 </p>
 <a href="https://opensea.io/collection/the-punksharks" target="_blank" className="px-5 flex items-center gap-2 w-fit  py-4 bg-blue-500 transition hover:bg-blue-600 text-white font-extrabold rounded-lg">
@@ -67,7 +69,7 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 
    
    <div className="cover banner w-full">
-     <img src="/images/cover.png" alt="Cover Image" className="w-full select-none h-full object-cover object-center" />
+     <img src="/images/Banner9.png" alt="Cover Image" className="w-full select-none h-full object-cover object-center" />
    </div>
 
 
@@ -97,9 +99,13 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 <div id="faq" className="px-7 mt-20 mx-auto scroll-mt-32">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 faqTitle sectionTitle">Have Questions?</div>
 
-                <FAQ title="What is Punk Sharks?" answer="Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital collectibles with proof of ownership on the Polygon blockchain. All PunkSharks are cool and contains different combination of traits but some are rarer than others." />
-                <FAQ title="Where can I buy a Shark?" answer="All the Sharks are minted on Opensea, you can buy easily on Opensea" />
-                <FAQ title="How much gas fee will I have to pay to pay to buy a Shark?"  answer="You don't have to pay any gas fee, It's on Polygon Chain" />
+                <FAQ title="Where can I buy a PunkShark?" answer="All PunkSharks are minted on OpenSea. You can buy any PunkShark easily and add it to your personal NFT collection." />
+                <FAQTutorial />
+                <FAQ title="How much gas fee do I have to pay to buy a PunkShark?"  answer="You do not have to pay any gas fee to buy a PunkShark. It is on Polygon blockchain." />
+                <FAQ title="Do I need to get verified or whitelisted?"  answer="All PunkSharks are already minted on OpenSea. There is no need to get verified or whitelisted." />
+                <FAQ title="What is proof of ownership in the provenance record?"  answer="You can verify each PunkShark NFT against each DNA hash present in the smart contract so nobody can duplicate, steal or mint it ever on any other blockchain. It represents the true ownership of the NFT holder." />
+
+
 </div>
 
 
@@ -186,9 +192,9 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 <div className="text-3xl font-medium mb-10 mx-auto">Contract Details</div>
 <div className="flex items-center contractFlex justify-center mx-auto w-full">
 <div className="contractWord text-xl opacity-80">Contract</div>
-<a className="w-fit border-b-2 border-blue-500 text-blue-600 transition hover:border-blue-800 hover:text-blue-800 contractLink" href="https://polygonscan.com/token/0xB536eFc10864408A2F491D1A6dFb0e76567C6659" style={{wordBreak: "normal"}}>0xB536eFc10864408A2F491D1A6dFb0e76567C6659</a>
+<a className="w-fit border-b-2 border-blue-500 text-blue-600 transition hover:border-yellow-500 hover:text-yellow-500 contractLink" href="https://polygonscan.com/token/0xB536eFc10864408A2F491D1A6dFb0e76567C6659" style={{wordBreak: "normal"}}>0xB536eFc10864408A2F491D1A6dFb0e76567C6659</a>
 </div>
-<p className="text-center mt-10 specs mx-auto">The PunkSharks are 32bit pixel art images and generated algorithmically. These are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS. (Check Provenance Record).</p>
+<p className="text-center mt-10 specs mx-auto">The PunkSharks are 32 bit pixel art NFT images and generated algorithmically. These are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS. Check <div className="underline text-blue-600 mx-1 hover:text-yellow-500 inline"><Link href="/provenance">Provenance Record</Link> </div> </p>
 
 
 

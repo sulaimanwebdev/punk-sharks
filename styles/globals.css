@@ -85,7 +85,6 @@ padding-bottom: 2px;
 
 .accordion-btn {
   padding: 24px 36px;
-  user-select: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -123,7 +122,6 @@ padding-bottom: 2px;
   padding-top: 24px;
   background-color: rgb(238, 238, 238);
   transition: all 0.2s ease;
-  user-select: none;
 }
 
 .accordion-body {
