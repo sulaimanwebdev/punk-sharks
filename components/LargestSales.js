@@ -5,9 +5,9 @@ const LargestSales = () => {
     let Sharks = [
         {
             id: 1,
-            image: "https://lh3.googleusercontent.com/XRko002ajAptxqg9uNEhxaKRAQdtvBK7ouaBz1HwmWNDcl4UNedy18fg201qsCCSa5T8wYDJu-VGU9NiwlFa71EnY46by3TlK1QE0Q=w600",
+            image: "https://lh3.googleusercontent.com/jal27w6wu2ogcLuO4gz_WUeMZUibY9yzgyzsDkJja7-vfDc1yArdnvJZeruBQN-F9mxtYHtPJ7y_F9DKmPnNBAnxR871x9YlU5Uw-A=w600",
             index: "#45",
-            price: "4.2K = ($4.2M)",
+            price: "0.006 ETH = ($19.28)",
             date: "a month ago",
             url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/45"
 
@@ -15,147 +15,90 @@ const LargestSales = () => {
 
         {
             id: 2,
-            image: "https://lh3.googleusercontent.com/txU9CX3DRRomquprg0oimTCYLzwWT1-4RxuxcF0-FRxfSbrRl3I-LUPUW_3MW09LETl5IBriO0slCALP3YZ18Drtmy0ddE607FkWwg=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/7651"
+            image: "https://lh3.googleusercontent.com/ytcKfMRJUJdSK1dVTa_gqAcS5_0n4sjlKdt_j-KhkdSVTJTJXaSKJcN0df86LQYmGEtcKrYTQycq3HJTr6mGAKRxJgoQJVu9MiOUAeE=w600",
+            index: "#92",
+            price: "0.006 ETH = ($19.28)",
+            date: "a month ago",
+            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/97"
 
         },
 
         {
             id: 3,
-            image: "https://lh3.googleusercontent.com/EVA2pnnzDRdrL7M9DFJrEkij_Kz8_HDGuxXM-VoliTSbwVqce9up1aFQA3VX3YH-voJz57XpiHxsbyzR-DRggyfT9yM3a2uRx2JdeA=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/9986"
+            image: "https://lh3.googleusercontent.com/w5NNZS5Q5w4inNaAGAePBt_S28TIco5ftzRIO2lxAKC3bkdL6XzE69krbkhDjrfyjRRA8F22_iKOQ8z3ydnZ9zhTUlzln7XVWa8rLw=w600",
+            index: "#7",
+            price: "0.005 ETH = ($15.96)",
+            date: "2 months ago",
+            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/7"
         },
 
         {
             id: 4,
-            image: "https://lh3.googleusercontent.com/F4X9lXvwiaoQx2e17QoFyRMFNxY-s_lUBMvCsYdvVEG0abR1TzxbodcmAr56G0GcDnY_6fbdpytc44MWx0AVOc_vaAI0Bm_-0nr_=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/8941"
+            image: "https://lh3.googleusercontent.com/1UU8BLK37AkD7x3wpjzfMVzxviUW8hyRb1x-LlIL4IUanigMWfAOC-ByihGvsN8Uz12mpPIbcrcxZha7nWqGWSzRnlGYUFe6jYdaGQ=w600",
+            index: "#8",
+            price: "0.003 ETH = ($11.30)",
+            date: "2 months ago",
+            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/8"
         },
 
         {
             id: 5,
-            image: "https://lh3.googleusercontent.com/_vgstNRkUWHpqY-IndxBN1wnVFHcaUt9jEsBkymKc-4n2k3XjZio1S-FMomtV1WwwlWTRgfeJD3UjvG6Ao8PLdRyZj9iTaMvazhh=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/8942"
+            image: "https://lh3.googleusercontent.com/G3P_Vu14YdP_RX386x0A0fa1rl3vDUX1FNwD7ND7M5hac6C1_qUfqiRllVE4ot7kQwUvjbrzb6mYghd0y-oVuCa9FdqMAo3odBYb_g=w600",
+            index: "#8418",
+            price: "0.001 ETH = ($3.32)",
+            date: "a month ago",
+            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/8418"
         },
 
         {
             id: 6,
-            image: "https://lh3.googleusercontent.com/OXo7mM7XxvAw2fP9bko1iTE59SsjxzquV0KLmRr4DSRfyKev3V--7-OPApFwSoHyXX2FVZ-qESqk2APnCYqtK_Y9cpOmWSLWmDOaUA=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/8973"
+            image: "https://lh3.googleusercontent.com/zD0Xz3enFrfoA_jN2GwhdfqyqkKsDS-Td5WWlAjPLOnSNGU3tHrT3vgPRuFiX8arkBm0RRun9Dk-9PMfgxBpwPGGCSN91Lu8RIlo=w600",
+            index: "#8417",
+            price: "0.001 ETH = ($3.32)",
+            date: "a month ago",
+            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/8417"
         },
 
         {
             id: 7,
-            image: "https://lh3.googleusercontent.com/dbbdd0flL1FYoTZ_FQ-K-XbLKGkql30jtdGBWaz8Lwcqimhq9mIqvkr3H4a1e-S9SURmKGA0mklqEUf7usklutD-5uGRrJ2LnBSgzg=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/9225"
+            image: "https://lh3.googleusercontent.com/yPMtbRMBjI_4a2BXHwdDXezFiNewdAzB__sLC9Iar4Tq55dG64YzKgAQoridpqHVmwJHN1CrbSbVruwXZk9GFtl_akPmaWf0K5L2Og=w600",
+            index: "#7243",
+            price: "0.001 ETH = ($3.32)",
+            date: "a month ago",
+            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/7243"
         },
 
 
         {
             id: 8,
-            image: "https://lh3.googleusercontent.com/dFkNXlVRBB5HErxH69orWuVZ2_bn1tl8OoG-BDadFLGDjtICDcBoFHGTQUikFFbAaytneu0cWLxeoCFMMmJmTkrB0t1y7w8g_gZy=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/88"
+            image: "https://lh3.googleusercontent.com/_vgstNRkUWHpqY-IndxBN1wnVFHcaUt9jEsBkymKc-4n2k3XjZio1S-FMomtV1WwwlWTRgfeJD3UjvG6Ao8PLdRyZj9iTaMvazhh=w600",
+            index: "#8942",
+            price: "< 0.001 ETH = ($2.99)",
+            date: "6 days ago",
+            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/8942"
         },
 
 
 
         {
             id: 9,
-            image: "https://lh3.googleusercontent.com/d88kTYV008MmG2mJz6QUcdN6lcdSkjPJQd5K2lXWNkgE8E9djaV5hrdQcWaw7ZXeeL51wgMD_eb28koQ-mKUPDzmCmus7oVIthcP6g=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/49"
+            image: "https://lh3.googleusercontent.com/XRko002ajAptxqg9uNEhxaKRAQdtvBK7ouaBz1HwmWNDcl4UNedy18fg201qsCCSa5T8wYDJu-VGU9NiwlFa71EnY46by3TlK1QE0Q=w600",
+            index: "#8415",
+            price: "< 0.001 ETH = ($1.66)",
+            date: "6 days ago",
+            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/8415"
         },
 
 
 
         {
             id: 10,
-            image: "https://lh3.googleusercontent.com/bdVw9mUCTI0y5wkkoB8RJ_oPGm1JKxm7yDyUW4dI58dAsm2LIUgI-ZWF54kR5h-cb5K6-zLx2m4NwNaIqNfqK06-XPquRsZlkvaYQg=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/9969"
-        },
-
-
-
-
-        {
-            id: 11,
-            image: "https://lh3.googleusercontent.com/tD0PU8TLqKUDjeCxaLkQi0m7WBntBH9KMfmO0FPTh5298nuvbn9rb9Cfb9Z0yjg8e36lRGH8uWNqv9VZIFKn5UwGSfSv5kQzpVZKs-U=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/3030"
-        },
-
-
-
-        {
-            id: 12,
-            image: "https://lh3.googleusercontent.com/wRUIfeoRlF286dFV_H4Qn5kbN_jZruZygPdG2f3S5uDhQu-Epmq_PxJK2A6t7JZI_cUNGusDscLb0jMwz3fpNYJ2WeR2_rTwT9pDjQ=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/6"
-        },
-
-
-
-
-        {
-            id: 13,
-            image: "https://lh3.googleusercontent.com/1dz4VcAOV1y1rvVjIWnDoCM5cOaPmRCoM0TX4E0wiBnYWlqlhUczZuP1hGvzy8jUEN6yB9vFZZRrIIrvTJJKKbbj4plasiBdx8Wi=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/89"
-        },
-
-
-
-        {
-            id: 14,
-            image: "https://lh3.googleusercontent.com/iqh8Cja7ozPotdhvUme-4VpMD6HJU0m_a1BPyEPCViNuzi76osp1aoMxW4qEu3TnH8Q3QuctT0KZPTFzKVoUUz6atqExJ1naF470=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/258"
-        },
-
-
-        {
-            id: 15,
-            image: "https://lh3.googleusercontent.com/EPp3Hv9dytFJ-F-JKM9Hg3TvEjOizRKFeSD77Szim7wdReNpyI2aFF4QjYVQaevHo2uh__0BycymoM2lVRakKOP3SvehXS6fGWN895w=w305",
-            index: "#7651",
-            price: "4.2K = ($4.2M)",
-            date: "20 March 2021",
-            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/1520"
+            image: "https://lh3.googleusercontent.com/4VQyuY0iVZkfqcswU3Y8lsyu25TPs6PNCMUFGUZ4WpgUXEGvOyYoIl_aqLal6oInWK_G_bU3j8p7u05LL51LvNNrWdDltd1upVu70g=w600",
+            index: "#9875",
+            price: "< 0.001 ETH = ($1.66)",
+            date: "6 days ago",
+            url: "https://opensea.io/assets/matic/0xb536efc10864408a2f491d1a6dfb0e76567c6659/9875"
         }
-
 
 
 
