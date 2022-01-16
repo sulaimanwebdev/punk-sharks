@@ -21,7 +21,7 @@ const Header = () => {
         <>
               <div className="header   sticky top-0 bg-white py-2">
              <div className="mx-auto w-full px-7 widthMax flex items-center justify-between">
-             <div className="logo cursor-pointer"><Link href="/" ><div className="flex items-center gap-2 font-bold"><img src="/images/favicon.png" className="w-14" alt="Logo"/> <span className="opacity-80">Punk Sharks</span></div></Link></div>
+             <div className="logo cursor-pointer"><Link href="/" ><div className="flex items-center gap-2 font-bold"><img src="/images/small-shark2.png" className="w-14" alt="Logo"/> <span className="opacity-80">PunkSharks</span></div></Link></div>
 
 <nav className="flex items-center lgScreenNav gap-20 font-bold">
        <a href="#" className="opacity-70 transition-colors hover:opacity-90">Home</a>
@@ -29,7 +29,6 @@ const Header = () => {
        <a href="#faq" className="opacity-70 transition-colors hover:opacity-90">FAQ</a>
        <a href="#stats" className="opacity-70 transition-colors hover:opacity-90">Stats</a>
        <a href="#largestSales" className="opacity-70 transition-colors hover:opacity-90">Largest Sales</a>
-       <a href="#details" className="opacity-70 transition-colors hover:opacity-90">Details</a>
 <Link href="/provenance"><div className="px-5 py-3 bg-blue-500 cursor-pointer lgScreenBtn transition-colors hover:bg-blue-600 text-white font-extrabold rounded-md">Provenance</div></Link>
 
 </nav>

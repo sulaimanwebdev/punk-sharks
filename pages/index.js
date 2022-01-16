@@ -6,7 +6,6 @@ import FAQ from '../components/FAQ';
 import FAQTutorial from '../components/FAQTutorial';
 import LargestSales from '../components/LargestSales';
 import Categories from '../components/Categories';
-import ConcatinatedHashString from '../components/ConcatinatedHashString'
 export default function Home() {
  
 
@@ -33,8 +32,8 @@ export default function Home() {
   return (
    <>
      <Head>
-       <title>Punk Sharks</title>
-       <link rel="shortcut icon" href="/images/favicon.png" />
+       <title>PunkSharks</title>
+       <link rel="shortcut icon" href="/images/small-shark2.png" />
        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.1/css/all.css"/>
        <link rel="preconnect" href="https://fonts.googleapis.com"/>
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -45,13 +44,8 @@ export default function Home() {
 <Header/>
 
 <div id="home" className="widthMax scroll-mt-30	 topSection mb-20 mx-auto px-7 w-full mt-14">
-<div className="flex">
-<img src="/images/small-shark.png" alt="shark icon" className="w-10 mb-5"/>
-<img src="/images/small-shark2.png" alt="shark icon" className="w-10 mb-5"/>
-<img src="/images/favicon.png" alt="shark icon" className="w-10 mb-5"/>
 
-</div>
-<div className="font-extrabold text-5xl mb-7 mainTitle">The Punk Sharks</div>
+<div className="font-extrabold text-5xl mb-7 mainTitle">The PunkSharks</div>
 <p className="opacity-90 aboutText mb-7 mainParagraph">
 Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital collectibles with proof of ownership on the Polygon blockchain. All PunkSharks are cool and contains a different combination of traits but some are rarer than others.
 <span className="mt-3 block">Own a PunkShark and be a part of the evolution of the internet!</span>
@@ -71,12 +65,12 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
    <div className="cover banner w-full">
      <img src="/images/Banner9.png" alt="Cover Image" className="w-full select-none h-full object-cover object-center" />
    </div>
+    <p className="text-center specs mx-auto opacity-80 mt-10">The PunkSharks are 32 bit pixel art NFT images and generated algorithmically. These are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS</p>
 
 
 
 
-
-<div id="categories" className="categories scroll-mt-32 widthMax w-full mx-auto mt-20 mb-32 px-7">
+<div id="categories" className="categories scroll-mt-32 widthMax w-full mx-auto mt-40 mb-32 px-7">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Categories</div>
 
 
@@ -92,21 +86,6 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 
 
 
-
-
-
-{/* FAQ */}
-<div id="faq" className="px-7 mt-20 mx-auto scroll-mt-32">
-<div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 faqTitle sectionTitle">Have Questions?</div>
-
-                <FAQ title="Where can I buy a PunkShark?" answer="All PunkSharks are minted on OpenSea. You can buy any PunkShark easily and add it to your personal NFT collection." />
-                <FAQTutorial />
-                <FAQ title="How much gas fee do I have to pay to buy a PunkShark?"  answer="You do not have to pay any gas fee to buy a PunkShark. It is on Polygon blockchain." />
-                <FAQ title="Do I need to get verified or whitelisted?"  answer="All PunkSharks are already minted on OpenSea. There is no need to get verified or whitelisted." />
-                <FAQ title="What is proof of ownership in the provenance record?"  answer="You can verify each PunkShark NFT against each DNA hash present in the smart contract so nobody can duplicate, steal or mint it ever on any other blockchain. It represents the true ownership of the NFT holder." />
-
-
-</div>
 
 
 
@@ -170,7 +149,7 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 
 
 
-<div id="largestSales" className="widthMax mx-auto px-7 mt-32 mb-20 scroll-mt-32">
+<div id="largestSales" className="widthMax mx-auto px-7 mt-40 mb-20 scroll-mt-32">
 
 
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Largest Sales</div>
@@ -187,36 +166,23 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 
 
 
-<div id="details" className="widthMax mx-auto text-center px-7 mt-32 mb-32 scroll-mt-32">
-<div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Details</div>
-<div className="text-3xl font-medium mb-10 mx-auto">Contract Details</div>
-<div className="flex items-center contractFlex justify-center mx-auto w-full">
-<div className="contractWord text-xl opacity-80">Contract</div>
-<a className="w-fit border-b-2 border-blue-500 text-blue-600 transition hover:border-yellow-500 hover:text-yellow-500 contractLink" href="https://polygonscan.com/token/0xB536eFc10864408A2F491D1A6dFb0e76567C6659" style={{wordBreak: "normal"}}>0xB536eFc10864408A2F491D1A6dFb0e76567C6659</a>
-</div>
-<p className="text-center mt-10 specs mx-auto">The PunkSharks are 32 bit pixel art NFT images and generated algorithmically. These are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS. Check <div className="underline text-blue-600 mx-1 hover:text-yellow-500 inline"><Link href="/provenance">Provenance Record</Link> </div> </p>
 
 
 
+{/* FAQ */}
+<div id="faq" className="px-7 mt-40 mb-14 mx-auto scroll-mt-32">
+<div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 faqTitle sectionTitle">Have Questions?</div>
 
-</div>
+                <FAQ title="Where can I buy a PunkShark?" answer="All PunkSharks are minted on OpenSea. You can buy any PunkShark easily and add it to your personal NFT collection." />
+                <FAQTutorial />
+                <FAQ title="How much gas fee do I have to pay to buy a PunkShark?"  answer="You do not have to pay any gas fee to buy a PunkShark. It is on Polygon blockchain." />
+                <FAQ title="Do I need to get verified or whitelisted?"  answer="All PunkSharks are already minted on OpenSea. There is no need to get verified or whitelisted." />
+                <FAQ title="What is proof of ownership in the provenance record?"  answer="You can verify each PunkShark NFT against each DNA hash present in the smart contract so nobody can duplicate, steal or mint it ever on any other blockchain. It represents the true ownership of the NFT holder." />
 
-
-
-
-
-
-
-
-
-
-<div className=" widthMax mx-auto px-7 mb-10">
-<div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Concatinated Hash String</div>
-
-
-<ConcatinatedHashString/>
 
 </div>
+
+
 
 
 
