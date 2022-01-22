@@ -147,13 +147,13 @@ padding-bottom: 2px;
 
 .concatincated{
   max-width:1000px;
-  max-height: 300px;
+  max-height: 200px;
   overflow-y: scroll;
   overflow-x: hidden;
   margin: 0 auto;
   border: 2px solid rgb(75, 75, 75);
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
 
 }
 
@@ -161,6 +161,7 @@ padding-bottom: 2px;
   width: 100%;
   margin: 0 auto;
 word-break: break-all;
+font-size: 13px;
 }
 
 
@@ -204,13 +205,13 @@ word-break: break-all;
 
 
 .provenenceRecord{
-  max-width: 770px;
+  max-width: 820px;
   width: 100%;
   margin: 0 auto;
 }
 .provenceGrid{
 display: grid;
-grid-template-columns: 70px 1fr 130px 130px;
+grid-template-columns: 120px 1fr 130px 130px;
   width: 100%;
   gap: 20px;
   padding-left: 5px;
@@ -461,7 +462,7 @@ border-left: 1px solid rgb(184, 184, 184);
   
   .provenceGrid{
 
-    min-width: 770px;
+    min-width: 820px;
 
   }
   

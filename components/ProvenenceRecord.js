@@ -29,10 +29,10 @@ let SortData = Sharks.sort((a, b) => a.edition - b.edition);
     return (
         <div className="provenenceRecord">
          <div className="provenceGrid provenceGrid-1 pb-2">
-         <div className="sharkID font-bold provenenceRTitles text-base opacity-80">Shark ID</div>
-          <div className="font-bold provenenceRTitles text-base opacity-80">DNA</div>
-          <div className="font-bold provenenceRTitles text-base opacity-80">Opensea Link</div>
-          <div className="font-bold provenenceRTitles text-base opacity-80">Image</div>
+         <div className="sharkID font-bold provenenceRTitles text-base opacity-80">PUNKSHARK ID</div>
+          <div className="font-bold provenenceRTitles text-base opacity-80">DNA HASH</div>
+          <div className="font-bold provenenceRTitles text-base opacity-80">Opensea</div>
+          <div className="font-bold provenenceRTitles text-base opacity-80">IPFS HASH</div>
          </div>
 
 
