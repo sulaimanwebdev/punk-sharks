@@ -111,9 +111,9 @@ const LargestSales = () => {
 {
     Sharks.map((currentShark) =>{
         return(
-            <a href={currentShark.url}>
+            <a href={currentShark.url} className="bg-white card transition rounded-md">
              <img src={currentShark.image} alt="shark image" className="rounded-md rounded-b-none" />
-             <div className="border-gray-300 border-2 border-t-0 rounded-md rounded-t-none px-3 pt-4 pb-4">
+             <div className="border-gray-400 border  border-t-0 rounded-md rounded-t-none px-3 pt-4 pb-4">
              <div className="font-bold">{currentShark.index}</div>
              <div>{currentShark.price}</div>
              <div>{currentShark.date}</div>

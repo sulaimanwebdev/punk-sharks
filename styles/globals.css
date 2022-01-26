@@ -83,6 +83,7 @@ padding-bottom: 2px;
   margin-bottom: 20px;
 }
 
+
 .accordion-btn {
   padding: 24px 36px;
   display: flex;
@@ -484,4 +485,45 @@ border-left: 1px solid rgb(184, 184, 184);
   .contractWord{
     font-size: 16px !important;
   }
+}
+
+
+.fade{
+  background-image: linear-gradient(to bottom, transparent, white);
+transform: translateY(-180px);
+width: 100%;
+height: 100px;
+}
+
+
+.wholePageTransform{
+  transform: translateY(-110px);
+}
+
+
+
+
+
+
+.card:hover{
+  transform: translateY(-10px);
+  
+}
+
+
+
+.asd{
+  background-image: linear-gradient(to bottom, transparent, white);
+  width: 100%;
+  height: 100px;
+}
+
+.largestSalesParent{
+  background: rgb(239,238,255);
+  background: linear-gradient(273deg, rgba(239,238,255,1) 0%, rgba(170,200,255,1) 100%);
+}
+
+.homeParent{
+  background: rgb(239,238,255);
+  background: linear-gradient(273deg, rgba(239,238,255,1) 0%, rgba(170,200,255,1) 100%);
 }

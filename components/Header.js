@@ -21,7 +21,8 @@ const Header = () => {
         <>
               <div className="header   sticky top-0 bg-white py-2">
              <div className="mx-auto w-full px-7 widthMax flex items-center justify-between">
-             <div className="logo cursor-pointer"><Link href="/" ><div className="flex items-center gap-2 font-bold"><img src="/images/small-shark2.png" className="w-14" alt="Logo"/> <span className="opacity-80">PunkSharks</span></div></Link></div>
+   
+             <div className="logo cursor-pointer"><Link href="/" ><div className="flex items-center gap-2 font-bold"><img src="/images/small-shark2.png" className="w-14" alt="Logo" style={{imageRendering: "pixelated"}}/> <span className="opacity-80">PunkSharks</span></div></Link></div>
 
 <nav className="flex items-center lgScreenNav gap-20 font-bold">
        <a href="#" className="opacity-70 transition-colors hover:opacity-90">Home</a>

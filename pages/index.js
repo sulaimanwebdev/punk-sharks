@@ -42,8 +42,9 @@ export default function Home() {
 
    
 <Header/>
+<div className="relative homeParent pb-24 mb-20 pt-20">
 
-<div id="home" className="widthMax scroll-mt-30	 topSection mb-20 mx-auto px-7 w-full mt-14">
+<div id="home" className="widthMax scroll-mt-30	 topSection mx-auto px-7 w-full ">
 
 <div className="font-extrabold text-5xl mb-7 mainTitle">The PunkSharks</div>
 <p className="opacity-90 aboutText mb-7 mainParagraph">
@@ -59,10 +60,19 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
  View On Opensea</a>
 </div>
 
+<div className="asd absolute left 0 bottom-0"></div>
+
+
+</div>
+
+
+
+
+<div className="">
 
 
    
-   <div className="cover banner w-full">
+<div className="cover banner w-full">
      <img src="/images/Banner9.png" alt="Cover Image" className="w-full select-none h-full object-cover object-center" />
    </div>
     <p className="text-center specs mx-auto opacity-80 mt-10">The PunkSharks are 32 bit pixel art NFT images and generated algorithmically. These are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS. <span className="underline text-blue-500 hover:text-yellow-500"><Link href="/provenance">Check Provenence Record</Link></span></p>
@@ -147,13 +157,17 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 
 
 
-
-
-<div id="largestSales" className="widthMax mx-auto px-7 mt-40 mb-20 scroll-mt-32">
+<div className="relative largestSalesParent">
+<div id="largestSales" className="widthMax py-24 mx-auto px-7 mt-40 mb-20 scroll-mt-32">
 
 
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Largest Sales</div>
 <LargestSales />
+
+
+
+</div>
+<div className="asd absolute left 0 bottom-0"></div>
 
 </div>
 
@@ -164,13 +178,8 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 
 
 
-
-
-
-
-
 {/* FAQ */}
-<div id="faq" className="px-7 mt-40 mb-14 mx-auto scroll-mt-32">
+<div id="faq" className="px-7 mt-40 mx-auto scroll-mt-32 mb-14">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 faqTitle sectionTitle">Have Questions?</div>
 
                 <FAQ title="Where can I buy a PunkShark?" answer="All PunkSharks are minted on OpenSea. You can buy any PunkShark easily and add it to your personal NFT collection." />
@@ -186,6 +195,7 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 
 
 
+</div>
 
 
 
