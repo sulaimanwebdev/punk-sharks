@@ -88,7 +88,7 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 <div className="cover banner w-full">
      <img src="/images/Banner9.png" alt="Cover Image" className="w-full select-none h-full object-cover object-center" />
    </div>
-    <p className="text-center specs mx-auto opacity-80 mt-10">The PunkSharks are 32 bit pixel art NFT images and generated algorithmically. These are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS. <span className="underline text-blue-500 hover:text-yellow-500"><Link href="/provenance">Check Provenence Record</Link></span></p>
+    <p className="text-center specs px-7 mx-auto opacity-80 mt-10">The PunkSharks are 32 bit pixel art NFT images and generated algorithmically. These are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS. <span className="underline text-blue-500 hover:text-yellow-500"><Link href="/provenance">Check Provenence Record</Link></span></p>
 
 
 
