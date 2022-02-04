@@ -47,10 +47,22 @@ export default function Home() {
 <div id="home" className="widthMax scroll-mt-30	 topSection mx-auto px-7 w-full ">
 
 <div className="font-extrabold text-5xl mb-7 mainTitle">The PunkSharks</div>
-<p className="opacity-90 aboutText mb-7 mainParagraph">
+<p className="opacity-90 aboutText mb-4 mainParagraph">
 Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital collectibles with proof of ownership on the Polygon blockchain. All PunkSharks are cool and contains a different combination of traits but some are rarer than others.
 <span className="mt-3 block">Own a PunkShark and be a part of the evolution of the internet!</span>
 </p>
+
+
+<div className="flex items-center gap-3 mb-5">
+<a href="https://discord.com/invite/EjDAXagrCQ" title='Discord' target="_blank" className='bg-white rounded-full w-10 h-10 flex items-center justify-center transition transform hover:-translate-y-1'><img src="/images/discord.svg" className='w-7 opacity-80' alt="Discord Icon" /></a>
+<a href="https://twitter.com/PunkSharks"  title='Twitter' target="_blank" className='bg-white rounded-full w-10 h-10 flex items-center justify-center transition transform hover:-translate-y-1'><i class="fab fa-twitter text-2xl opacity-80"></i></a>
+<a href="https://www.instagram.com/the_punksharks/"  title='Instagram' target="_blank" className='bg-white rounded-full w-10 h-10 flex items-center justify-center transition transform hover:-translate-y-1'><i class="fab fa-instagram text-2xl opacity-70"></i></a>
+<a href="https://oncyber.io/punksharks"  title='3D Gallery' target="_blank" className='bg-white rounded-full w-10 h-10 flex items-center justify-center transition transform hover:-translate-y-1'><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-3d-cube-sphere" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0h24v24H0z" stroke="none"/><path d="M6 17.6l-2-1.1V14M4 10V7.5l2-1.1M10 4.1L12 3l2 1.1M18 6.4l2 1.1V10M20 14v2.5l-2 1.12M14 19.9L12 21l-2-1.1M12 12l2-1.1M18 8.6l2-1.1M12 12v2.5M12 18.5V21M12 12l-2-1.12M6 8.6L4 7.5"/></svg></a>
+
+
+
+
+</div>
 <a href="https://opensea.io/collection/the-punksharks" target="_blank" className="px-5 flex items-center gap-2 w-fit  py-4 bg-blue-500 transition hover:bg-blue-600 text-white font-extrabold rounded-lg">
 <svg width="40" className="openseaLogo" height="40" viewBox="0 0 90 90" fill="green" xmlns="http://www.w3.org/2000/svg">
 <path d="M90 45C90 69.8514 69.8514 90 45 90C20.1486 90 0 69.8514 0 45C0 20.1486 20.1486 0 45 0C69.8566 0 90 20.1486 90 45Z" fill="white"/>
