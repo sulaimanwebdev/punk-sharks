@@ -53,10 +53,11 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 </p>
 
 
-<div className="flex items-center gap-3 mb-5">
-<a href="https://discord.com/invite/EjDAXagrCQ" title='Discord' target="_blank" className='bg-white rounded-full w-10 h-10 flex items-center justify-center transition transform hover:-translate-y-1'><img src="/images/discord.svg" className='w-7 opacity-80' alt="Discord Icon" /></a>
-<a href="https://twitter.com/PunkSharks"  title='Twitter' target="_blank" className='bg-white rounded-full w-10 h-10 flex items-center justify-center transition transform hover:-translate-y-1'><i class="fab fa-twitter text-2xl opacity-80"></i></a>
-<a href="https://www.instagram.com/the_punksharks/"  title='Instagram' target="_blank" className='bg-white rounded-full w-10 h-10 flex items-center justify-center transition transform hover:-translate-y-1'><i class="fab fa-instagram text-2xl opacity-70"></i></a>
+<div className="flex items-center gap-3 mb-7 flex-wrap">
+<a href="https://discord.com/invite/EjDAXagrCQ" title='Discord' target="_blank" className='bg-white rounded-full w-10 h-10 flex items-center justify-center transition transform hover:-translate-y-1'><img src="/images/discord.svg" className='w-7' alt="Discord Icon" /></a>
+<a href="https://twitter.com/PunkSharks"  title='Twitter' target="_blank" className='bg-white rounded-full w-10 h-10 flex items-center justify-center transition transform hover:-translate-y-1'><i class="fab fa-twitter text-2xl text-[#1DA1F2]"></i></a>
+<a href="https://github.com/PunkShark/PunkSharks"  title='Github' target="_blank" className='bg-white rounded-full w-10 h-10 flex items-center justify-center transition transform hover:-translate-y-1'><i class="fab fa-github text-2xl opacity-80"></i></a>
+<a href="https://www.instagram.com/the_punksharks/"  title='Instagram' target="_blank" className='bg-white rounded-full w-10 h-10 flex items-center justify-center transition transform hover:-translate-y-1'><img src="/images/instagram.png" className='w-7' alt="Instagram Icon" /></a>
 <a href="https://oncyber.io/punksharks"  title='3D Gallery' target="_blank" className='bg-white rounded-full w-10 h-10 flex items-center justify-center transition transform hover:-translate-y-1'><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-3d-cube-sphere" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0h24v24H0z" stroke="none"/><path d="M6 17.6l-2-1.1V14M4 10V7.5l2-1.1M10 4.1L12 3l2 1.1M18 6.4l2 1.1V10M20 14v2.5l-2 1.12M14 19.9L12 21l-2-1.1M12 12l2-1.1M18 8.6l2-1.1M12 12v2.5M12 18.5V21M12 12l-2-1.12M6 8.6L4 7.5"/></svg></a>
 
 
@@ -87,7 +88,7 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 <div className="cover banner w-full">
      <img src="/images/Banner9.png" alt="Cover Image" className="w-full select-none h-full object-cover object-center" />
    </div>
-    <p className="text-center specs mx-auto opacity-80 mt-10">The PunkSharks are 32 bit pixel art NFT images and generated algorithmically. These are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS. <span className="underline text-blue-500 hover:text-yellow-500"><Link href="/provenance" target="_blank">Check Provenence Record</Link></span></p>
+    <p className="text-center specs mx-auto opacity-80 mt-10">The PunkSharks are 32 bit pixel art NFT images and generated algorithmically. These are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS. <span className="underline text-blue-500 hover:text-yellow-500"><Link href="/provenance">Check Provenence Record</Link></span></p>
 
 
 
