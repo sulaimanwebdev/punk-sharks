@@ -316,9 +316,6 @@ grid-template-columns: 120px 1fr 130px 130px;
   display: none;
 }
 
-.topSection{
-  margin-top: 40px !important;
-}
 
 .banner{
   height: 200px;
