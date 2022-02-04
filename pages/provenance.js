@@ -26,24 +26,26 @@ const provenance = () => {
 
 
 
+     <div className="font-bold w-fit text-4xl mx-auto mt-32 text-black mb-20 opacity-70 sectionTitle">PunkSharks Provenence Record</div>
 
-
+     <p className="specs mx-auto text-center mb-14"> 
+Each PunkShark artwork contains a unique DNA hash stored on the blockchain and its ownership can be verified. All metadata is permanently stored on the IPFS. A combined hash string is obtained by concatenating DNA hash of each Punkshark image in the specific order listed below. 
+</p>
 
 <div id="details" className="widthMax mx-auto text-center px-7 mt-32 mb-32 scroll-mt-32">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Contract Details</div>
 <div className="flex items-center contractFlex justify-center mx-auto w-full">
 <div className="contractWord text-xl opacity-80">Verified Smart Contract</div>
-<a className="w-fit border-b-2 border-blue-500 text-blue-600 transition hover:border-yellow-500 hover:text-yellow-500 contractLink" href="https://polygonscan.com/token/0xB536eFc10864408A2F491D1A6dFb0e76567C6659" style={{wordBreak: "normal"}}>0xB536eFc10864408A2F491D1A6dFb0e76567C6659</a>
+<a target="_blank" className="w-fit border-b-2 border-blue-500 text-blue-600 transition hover:border-yellow-500 hover:text-yellow-500 contractLink" href="https://polygonscan.com/address/0xB536eFc10864408A2F491D1A6dFb0e76567C6659" style={{wordBreak: "normal"}}>0xB536eFc10864408A2F491D1A6dFb0e76567C6659</a>
 </div>
 
 
 <div className="flex items-center contractFlex justify-center mx-auto w-full mt-7">
 <div className="contractWord text-xl opacity-80">Final Proof Hash</div>
-<a className="w-fit border-b-2 border-blue-500 text-blue-600 transition hover:border-yellow-500 hover:text-yellow-500 contractLink" href="https://gateway.pinata.cloud/ipfs/QmWBDfXDr7YCw37fkHLTZg8zZmTCnvR2oCQdZk9aEDrVRh/_metadata.json" style={{wordBreak: "normal"}}>QmWBDfXDr7YCw37fkHLTZg8zZmTCnvR2oCQdZk9aEDrVRh</a>
+<a target="_blank" className="w-fit border-b-2 border-blue-500 text-blue-600 transition hover:border-yellow-500 hover:text-yellow-500 contractLink" href="https://gateway.pinata.cloud/ipfs/QmWBDfXDr7YCw37fkHLTZg8zZmTCnvR2oCQdZk9aEDrVRh/_metadata.json" style={{wordBreak: "normal"}}>QmWBDfXDr7YCw37fkHLTZg8zZmTCnvR2oCQdZk9aEDrVRh</a>
 </div>
 
 
-<p className="text-center mt-10 specs mx-auto">The PunkSharks are 32 bit pixel art NFT images and generated algorithmically. These are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS. Check Provenance Record below </p>
 </div>
 
 
@@ -64,9 +66,7 @@ const provenance = () => {
 
 <div className="widthMax overflow-hidden mx-auto px-7 mt-32 mb-10">
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Provenence Record</div>
-<p className="specs mx-auto text-center mb-14"> 
-Each PunkShark artwork contains a unique DNA hash stored on the blockchain and its ownership can be verified. All metadata is permanently stored on the IPFS. A combined hash string is obtained by concatenating DNA hash of each Punkshark image in the specific order listed below. 
-</p>
+
 <ProvenenceRecord/>
 
 
