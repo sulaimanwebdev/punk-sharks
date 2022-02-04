@@ -26,9 +26,9 @@ const provenance = () => {
 
 
 
-     <div className="font-bold w-fit text-4xl mx-auto mt-32 text-black mb-20 opacity-70 sectionTitle">PunkSharks Provenence Record</div>
+     <div className="font-bold px-7 w-fit text-4xl mx-auto mt-32 text-black mb-20 opacity-70 sectionTitle">PunkSharks Provenence Record</div>
 
-     <p className="specs mx-auto text-center mb-14"> 
+     <p className="specs mx-auto text-center px-7 mb-14"> 
 Each PunkShark artwork contains a unique DNA hash stored on the blockchain and its ownership can be verified. All metadata is permanently stored on the IPFS. A combined hash string is obtained by concatenating DNA hash of each Punkshark image in the specific order listed below. 
 </p>
 
