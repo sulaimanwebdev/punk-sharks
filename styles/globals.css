@@ -524,3 +524,35 @@ height: 100px;
   background: rgb(239,238,255);
   background: linear-gradient(273deg, rgba(239,238,255,1) 0%, rgba(170,200,255,1) 100%);
 }
+
+
+
+
+
+
+@media (max-width:500px){
+  .mainCategoryGrid{
+  grid-template-columns: 1fr !important;
+
+}
+
+
+.topCategoryGrid{
+  display: none !important;
+}
+
+.mainContCategoryGGG{
+  border-top: 1px solid #d1d5db;
+}
+
+.categoryName{
+  padding-bottom: 0 !important;
+}
+
+
+.realNumbers{
+  padding-bottom: 2px !important;
+  padding-top: 0 !important;
+
+}
+}
