@@ -206,25 +206,25 @@ font-size: 13px;
 
 
 .provenenceRecord{
-  max-width: 690px;
+  max-width: 780px;
   width: 100%;
   margin: 0 auto;
 }
 .provenceGrid{
 display: grid;
-grid-template-columns: 40px 358px 130px 130px;
+grid-template-columns: 120px 358px 130px 130px;
   width: 100%;
   gap: 20px;
   padding-left: 5px;
-  min-width:690px;
-  max-width:690px;
+  min-width:780px;
+  max-width:780px;
 
 }
 
 
 .topGG{
-  min-width:690px;
-  max-width:690px;
+  min-width:780px;
+  max-width:780px;
   
 }
 
@@ -471,13 +471,13 @@ border-left: 1px solid rgb(184, 184, 184);
   
   .provenceGrid{
 
-    min-width:690px;
-    grid-template-columns: 40px 358px 130px 130px;
+    min-width:780px;
+    grid-template-columns: 120px 358px 130px 130px;
 
   }
 
   .topGG{
-    min-width: 690px;
+    min-width: 780px;
     
   }
 
