@@ -48,7 +48,7 @@ export default function Home() {
 
 <div className="font-extrabold text-5xl mb-7 mainTitle">The PunkSharks</div>
 <p className="opacity-90 aboutText mb-4 mainParagraph">
-Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital collectibles with proof of ownership on the Polygon blockchain. All PunkSharks are cool and contains a different combination of traits but some are rarer than others.
+PunkSharks is a collection of 10,000 NFTs - unique and randomly generated digital collectibles with proof of ownership on the Polygon blockchain. All PunkSharks are cool and contains a different combination of traits but some are rarer than others.
 <span className="mt-3 block">Own a PunkShark and be a part of the evolution of the internet!</span>
 </p>
 
@@ -124,7 +124,7 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 <div className="font-bold w-fit text-4xl mx-auto text-black mb-20 opacity-70 sectionTitle">Overall Stats</div>
 
 
-<div className="grid grid-cols-3 gap-5 gap-y-10 mt-20 w-full statsGrid">
+<div className="grid grid-cols-3 gap-5 gap-y-10 mt-20 mb-10 w-full statsGrid">
  <div>
    <div className="opacity-80 mb-1">Current lowest price Shark available</div>
    <div className="font-bold opacity-80">0.0007 ETH ($2.35 USD)</div>
@@ -146,20 +146,6 @@ Punsharks is a collection of 10,000 NFTs - unique and randomly generated digital
 
 </div>
 
-
-
-<div className="grid grid-cols-2 gap-5 mt-10 mb-10 statsSecondGrid">
-  <div className="flex items-center gap-5 font-bold px-4 text-white py-3 rounded-md bg-blue-500">
-  <i className="fal fa-bars text-2xl"></i>
-  <span className="text-lg opacity-95">Top Sharks Owners</span>
-  </div>
-
-  <div className="flex items-center gap-5 font-bold px-4 text-white py-3 rounded-md bg-blue-500">
-  <i className="fal fa-bars text-2xl"></i>
-  <span className="text-lg opacity-95">All Shark Type & Attributes</span>
-  </div>
-  
-</div>
 
 
 </div>
